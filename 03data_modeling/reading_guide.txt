@@ -30,6 +30,7 @@
 			i. A mapping between the weak entity type and its owner
 	d. Model a person-household database (from class 2) using an ERD.
 		a. Rather than mapping a foreign key into each table that required it, we could use a relationship type for each kind of relationship, and map each person to a household that way. (Similar to the PersonHousehold table)
+		b. Just create a mapping of each person to each household, without a specific view of all the details carried along with each entity.
 	e. Skim the material in Section 3.8 on UML diagrams; we won’t use it here but we have addressed it in CS 262 and will review it in unit 11.
 Note the ERD reference sheet in Figure 3.14.
 2. Read Chapter 9.
