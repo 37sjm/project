@@ -28,6 +28,7 @@ create table Order_Info (
 	
 create table Item (
 	item_number integer,
+	name varchar(40),
 	unit_price float,
 	primary key (item_number),
 	check (item_number > 0),
@@ -72,14 +73,15 @@ insert into Customer values (3, 'Julie', 'South Lyon');
 insert into Customer values (4, 'Chip', 'Novi');
 
 insert into Order_Info values (1, '01-Jan-2015', 1, 1);
+insert into Order_Info values (5, '02-Jan-2015', 1, 6);
 insert into Order_Info values (2, '14-Feb-2016', 2, 1);
 insert into Order_Info values (3, '16-Jun-1996', 3, 4);
 insert into Order_Info values (4, '23-Jul-1990', 3, 2);
 
-insert into Item values (1, 1.99);
-insert into Item values (2, 9.99);
-insert into Item values (3, 0.99);
-insert into Item values (4, 99.99);
+insert into Item values (1, 'Soccer Ball', 1.99);
+insert into Item values (2, 'Basketball', 9.99);
+insert into Item values (3, 'Gum', 0.99);
+insert into Item values (4, 'Kindle', 99.99);
 
 insert into Order_Info_Item values (1, 1, 2);
 insert into Order_Info_Item values (2, 1, 4);
@@ -116,3 +118,18 @@ insert into Shipment values (4, 2, null);
 --Another disadvantage of generated keys is that for an app developer querying against this database, the generated key
 --is just extra information that is required to select from a table, but often this "id" will not be used in the app, causing
 --large queries to be slightly less efficient than if the keys were the data that the app needed to use.
+
+
+--3.a
+ select order_date, order_info_amt from Order_Info, Customer 
+ where Customer.customer_name = 'Mitch' and Order_Info.customer_id = Customer.customer_id 
+ order by order_date;
+ 
+ --3.b
+ select unique customer_id from order_info;
+ 
+ --3.c
+  select customer.customer_id, customer.customer_name
+ from Customer, Order_info, Order_Info_Item, Item
+ where Item.name = 'Soccer Ball' and Order_Info_Item.item_number = Item.item_number
+ and Order_info_item.order_number = Order_info.order_number and Order_info.customer_id = Customer.customer_id;
