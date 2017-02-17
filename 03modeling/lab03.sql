@@ -1,7 +1,7 @@
 -- Starter code for lab 3.
 --
 -- CS 342, Spring, 2017
--- kvlinden
+-- kvlinden, extended by: Mitch Stark
 drop table Mentorship;
 drop table Person_Team;
 drop table Request;
