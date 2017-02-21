@@ -1,7 +1,7 @@
 -- Starter code for lab 3.
 --
 -- CS 342, Spring, 2017
--- kvlinden, extended by: Mitch Stark
+-- kvlinden
 drop table Mentorship;
 drop table Person_Team;
 drop table Request;
@@ -23,9 +23,7 @@ create table HouseHold(
 create table Homegroup (
 	id integer primary key,
 	name varchar(60),
-	description varchar(140),
-	location_id integer,
-	foreign key (location_id) references HouseHold(id) on delete set null
+	description varchar(140)
 	);	
 	
 create table Person (
@@ -65,18 +63,27 @@ create table Person_Team (
 	foreign key (person_id) references person(id) on delete cascade,
 	foreign key (team_id) references team(id) on delete cascade
 	);
+	
+create table Request (
+	date_created Date,
+	household_id integer,
+	responder_id integer,
+	text varchar(140),
+	--access varchar(140),
+	response varchar(140),
+	primary key (date_created, household_id),
+	foreign key (responder_id) references person(id) on delete set null
+	);
 
 INSERT INTO Household VALUES (0,'2347 Oxford Dr. SE','Grand Rapids','MI','49506','616-243-5680');
 insert into household values (1, '2433 Woodcliff Ave', 'Grand Rapids', 'MI', '49506', '2423532');
 
---no way of making this a check constraint, so db admin must only allow
---for the household in each homegroup to be one that is a group member's house.
-insert into Homegroup values (0, 'bible study', 'study the bible', 0);
-insert into Homegroup values (1, 'worship group', 'worship', 1);
+insert into Homegroup values (0, 'bible study', 'study the bible');
+insert into Homegroup values (1, 'worship group', 'worship');
 
 INSERT INTO Person VALUES (0,'mr.','Keith','VanderLinden', 'husband', 0, null, 'm');
 INSERT INTO Person VALUES (1,'ms.','Brenda','VanderLinden', 'wife', 0, 0, 'm');
-insert into person values (2, 'mr.', 'mitch', 'stark', 'owner', 1, null, 'm');
+insert into person values (2, 'mr.', 'mitch', 'stark', 'owner', 1, 1, 'm');
 
 insert into Mentorship values (1, 0);
 insert into Mentorship values (0, 2);
@@ -89,11 +96,5 @@ insert into Person_Team values (0, 0, 'Singer');
 insert into Person_Team values (1, 0, 'Pianist');
 insert into Person_Team values (2, 1, 'Video');
 
---Test queries
-select * from team;
-select * from person_team;
-select * from homegroup;
-
-select homegroup.name, person.firstName from person, homegroup where person.homegroupID = Homegroup.id;
-
-select team.name, person.firstName from person, team, person_team where person.id = person_team.person_id and team.id = person_team.team_id;
+insert into request values ('16-Feb-2017', 1, 2, 'prayer request', 'we are praying');
+insert into request values ('17-Feb-2017', 0, null, 'prayer request', null);
