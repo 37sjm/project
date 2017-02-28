@@ -23,24 +23,70 @@ insert into team values (18, 'Osasuna', 1, 16, 7);
 
 
 insert into league_standing values (0, 0, 1);
-insert into league_standing values (0, 0, 2);
-insert into league_standing values (0, 0, 3);
-insert into league_standing values (0, 0, 4);
-insert into league_standing values (0, 0, 5);
-insert into league_standing values (0, 0, 6);
-insert into league_standing values (0, 0, 7);
-insert into league_standing values (0, 0, 8);
-insert into league_standing values (0, 0, 9);
-insert into league_standing values (0, 0, 10);
-insert into league_standing values (0, 0, 11);
-insert into league_standing values (0, 0, 12);
-insert into league_standing values (0, 0, 13);
-insert into league_standing values (0, 0, 14);
-insert into league_standing values (0, 0, 15);
-insert into league_standing values (0, 0, 17);
-insert into league_standing values (0, 0, 18);
-insert into league_standing values (0, 0, 19);
-insert into league_standing values (0, 0, 20);
+insert into league_standing values (1, 0, 2);
+insert into league_standing values (2, 0, 3);
+insert into league_standing values (3, 0, 4);
+insert into league_standing values (4, 0, 5);
+insert into league_standing values (5, 0, 6);
+insert into league_standing values (6, 0, 7);
+insert into league_standing values (7, 0, 8);
+insert into league_standing values (8, 0, 9);
+insert into league_standing values (9, 0, 10);
+insert into league_standing values (10, 0, 11);
+insert into league_standing values (11, 0, 12);
+insert into league_standing values (12, 0, 13);
+insert into league_standing values (13, 0, 14);
+insert into league_standing values (14, 0, 15);
+insert into league_standing values (15, 0, 17);
+insert into league_standing values (16, 0, 18);
+insert into league_standing values (17, 0, 19);
+insert into league_standing values (18, 0, 20);
+
+
+
+insert into team values (19, 'Chelsea', 20, 3, 3);
+insert into team values (20, 'Tottenham Hotspur', 15, 3, 8);
+insert into team values (21, 'Manchester City', 16, 5, 4);
+insert into team values (22, 'Arsenal', 15, 5, 5);
+insert into team values (23, 'Liverpool', 14, 5, 7);
+insert into team values (24, 'Manchester United', 13, 3, 9);
+insert into team values (25, 'Everton', 12, 6, 8);
+insert into team values (26, 'West Bromwich Albion', 11, 8, 7);
+insert into team values (27, 'West Ham United', 9, 11, 6);
+insert into team values (28, 'Stoke City', 8, 10, 8);
+insert into team values (29, 'Burnley', 9, 13, 4);
+insert into team values (30, 'Watford', 8, 11, 7);
+insert into team values (31, 'Southampton', 8, 11, 6);
+insert into team values (32, 'AFC Bournemouth', 7, 14, 5);
+insert into team values (33, 'Leicester City', 6, 14, 6);
+insert into team values (34, 'Swansea City', 7, 16, 3);
+insert into team values (35, 'Middlesbrough', 4, 12, 10);
+insert into team values (36, 'Crystal Palace', 6, 16, 4);
+insert into team values (37, 'Hull City', 5, 15, 6);
+insert into team values (38, 'Sunderland', 5, 17, 4);
+
+
+
+insert into league_standing values (19, 1, 1);
+insert into league_standing values (20, 1, 2);
+insert into league_standing values (21, 1, 3);
+insert into league_standing values (22, 1, 4);
+insert into league_standing values (23, 1, 5);
+insert into league_standing values (24, 1, 6);
+insert into league_standing values (25, 1, 7);
+insert into league_standing values (26, 1, 8);
+insert into league_standing values (27, 1, 9);
+insert into league_standing values (28, 1, 10);
+insert into league_standing values (29, 1, 11);
+insert into league_standing values (30, 1, 12);
+insert into league_standing values (31, 1, 13);
+insert into league_standing values (32, 1, 14);
+insert into league_standing values (33, 1, 15);
+insert into league_standing values (34, 1, 16);
+insert into league_standing values (35, 1, 17);
+insert into league_standing values (36, 1, 18);
+insert into league_standing values (37, 1, 19);
+insert into league_standing values (38, 1, 20);
 
 
 
@@ -175,6 +221,7 @@ insert into player values ('Fernando Torres', 'F', 9, 32, 7, 12, 5, 8, 2, 14, 19
 
 
 insert into player values ('Ander Bardaji', 'G', 13, 21, 0, 0, null, null, null, 0, 0, 4);
+insert into player values ('Mariasun Quiñones', 'G', 13, 20, null, null, null, null, null, null, null, 4);
 insert into player values ('Toño Ramírez', 'G', 25, 30, 0, 0, null, null, null, 0, 0, 4);
 insert into player values ('Gerónimo Rulli', 'G', 1, 24, 24, 0, null, null, null, 5, 1, 4);
 insert into player values ('Yuri Berchiche', 'D', 19, 27, 21, 0, 2, 4, 1, 21, 21, 4);
@@ -394,6 +441,7 @@ insert into player values ('Aythami Artiles', 'D', 16, 30, 6, 2, 0, 1, 0, 3, 11,
 insert into player values ('Hélder Lopes', 'D', 22, 28, 8, 1, 0, 0, 1, 15, 8, 11);
 insert into player values ('Míchel Macedo', 'D', 12, 27, 19, 0, 0, 0, 4, 26, 12, 11);
 insert into player values ('David Simón', 'D', 2, 27, 5, 2, 0, 5, 0, 4, 11, 11);
+insert into player values ('Jeremies Valerón', 'D', null, 21, null, null, null, null, null, null, null, 11);
 insert into player values ('Kevin-Prince Boateng', 'M', 7, 29, 17, 1, 6, 21, 1, 48, 45, 11);
 insert into player values ('Javi Castellanos', 'M', 18, 29, 0, 1, 0, 0, 0, 0, 1, 11);
 insert into player values ('Mateo García', 'M', 19, 20, 4, 7, 1, 1, 0, 7, 2, 11);
@@ -628,6 +676,637 @@ insert into player values ('Kenan Kodro', 'F', 19, 23, 7, 9, 2, 6, 1, 9, 6, 18);
 insert into player values ('Sergio León', 'F', 7, 28, 16, 4, 7, 21, 0, 20, 15, 18);
 insert into player values ('Oriol Riera', 'F', 9, 30, 14, 2, 4, 12, 1, 26, 32, 18);
 insert into player values ('Emmanuel Rivière', 'F', 12, 26, 6, 7, 0, 5, 0, 7, 11, 18);
+
+
+
+insert into player values ('Asmir Begovic', 'G', 1, 29, 0, 0, null, null, null, 0, 0, 19);
+insert into player values ('Thibaut Courtois', 'G', 13, 24, 26, 0, null, null, null, 2, 1, 19);
+insert into player values ('Eduardo', 'G', 37, 34, null, null, null, null, null, null, null, 19);
+insert into player values ('Ola Aina', 'D', 34, 20, 0, 2, 0, 0, 0, 0, 0, 19);
+insert into player values ('Nathan Aké', 'D', 6, 22, 8, 2, 3, 4, 0, 2, 3, 19);
+insert into player values ('Marcos Alonso', 'D', 3, 26, 20, 1, 4, 9, 2, 15, 21, 19);
+insert into player values ('César Azpilicueta', 'D', 28, 27, 26, 0, 0, 3, 1, 15, 20, 19);
+insert into player values ('Gary Cahill', 'D', 24, 31, 26, 0, 3, 5, 0, 16, 23, 19);
+insert into player values ('David Luiz', 'D', 30, 29, 22, 0, 1, 7, 0, 17, 15, 19);
+insert into player values ('John Terry', 'D', 26, 36, 4, 1, 0, 1, 0, 2, 4, 19);
+insert into player values ('Kurt Zouma', 'D', 5, 22, 0, 2, 0, 0, 0, 1, 0, 19);
+insert into player values ('Nathaniel Chalobah', 'M', 29, 22, 0, 8, 0, 1, 1, 1, 1, 19);
+insert into player values ('Willian', 'M', 22, 28, 12, 10, 5, 11, 1, 16, 10, 19);
+insert into player values ('Cesc Fàbregas', 'M', 4, 29, 6, 11, 3, 5, 7, 8, 11, 19);
+insert into player values ('Eden Hazard', 'M', 10, 26, 25, 0, 10, 25, 4, 72, 13, 19);
+insert into player values ('N''Golo Kanté', 'M', 7, 25, 25, 0, 1, 6, 0, 11, 39, 19);
+insert into player values ('Ruben Loftus-Cheek', 'M', 14, 21, 0, 2, 0, 0, 0, 0, 0, 19);
+insert into player values ('Nemanja Matic', 'M', 21, 28, 22, 3, 0, 2, 6, 16, 25, 19);
+insert into player values ('Victor Moses', 'M', 15, 26, 20, 5, 3, 9, 2, 23, 22, 19);
+insert into player values ('Michy Batshuayi', 'F', 23, 23, 0, 16, 1, 2, 1, 0, 4, 19);
+insert into player values ('Kenedy', 'F', 16, 21, null, null, null, null, null, null, null, 19);
+insert into player values ('Pedro', 'F', 11, 29, 17, 6, 7, 10, 6, 25, 21, 19);
+insert into player values ('Dominic Solanke', 'F', 41, 19, 0, 0, 0, 0, 0, 0, 0, 19);
+insert into player values ('Diego Costa', 'F', 19, 28, 24, 0, 16, 32, 5, 62, 25, 19);
+
+
+
+insert into player values ('Hugo Lloris', 'G', 1, 30, 23, 0, null, null, null, 2, 0, 20);
+insert into player values ('Pau López', 'G', 30, 23, 0, 0, null, null, null, 0, 0, 20);
+insert into player values ('Michel Vorm', 'G', 13, 33, 3, 1, null, null, null, 0, 0, 20);
+insert into player values ('Alfie Whiteman', 'G', 41, 18, null, null, null, null, null, null, null, 20);
+insert into player values ('Toby Alderweireld', 'D', 4, 27, 18, 0, 0, 5, 0, 2, 7, 20);
+insert into player values ('Cameron Carter-Vickers', 'D', 38, 19, 0, 0, 0, 0, 0, 0, 0, 20);
+insert into player values ('Ben Davies', 'D', 33, 23, 6, 5, 0, 1, 0, 8, 6, 20);
+insert into player values ('Danny Rose', 'D', 3, 26, 18, 0, 2, 5, 2, 48, 26, 20);
+insert into player values ('Kieran Trippier', 'D', 16, 26, 1, 2, 0, 0, 2, 0, 2, 20);
+insert into player values ('Jan Vertonghen', 'D', 5, 29, 21, 0, 0, 1, 0, 10, 17, 20);
+insert into player values ('Kyle Walker', 'D', 2, 26, 25, 0, 0, 5, 5, 26, 26, 20);
+insert into player values ('Kyle Walker-Peters', 'D', 37, 19, null, null, null, null, null, null, null, 20);
+insert into player values ('Kevin Wimmer', 'D', 27, 24, 4, 1, 0, 0, 0, 1, 4, 20);
+insert into player values ('Dele Alli', 'M', 20, 20, 23, 2, 12, 27, 2, 51, 33, 20);
+insert into player values ('Mousa Dembélé', 'M', 19, 29, 17, 1, 0, 1, 0, 16, 28, 20);
+insert into player values ('Eric Dier', 'M', 15, 23, 22, 2, 0, 2, 0, 8, 14, 20);
+insert into player values ('Marcus Edwards', 'M', 48, 18, null, null, null, null, null, null, null, 20);
+insert into player values ('Christian Eriksen', 'M', 23, 25, 25, 0, 5, 32, 10, 18, 14, 20);
+insert into player values ('Son Heung-Min', 'M', 7, 24, 14, 9, 7, 17, 3, 23, 7, 20);
+insert into player values ('Erik Lamela', 'M', 11, 24, 6, 3, 1, 7, 1, 11, 13, 20);
+insert into player values ('Georges-Kévin N''Koudou', 'M', 14, 22, 0, 5, 0, 1, 0, 2, 2, 20);
+insert into player values ('Josh Onomah', 'M', 25, 19, 0, 4, 0, 0, 0, 1, 0, 20);
+insert into player values ('Moussa Sissoko', 'M', 17, 27, 6, 10, 0, 1, 2, 9, 15, 20);
+insert into player values ('Victor Wanyama', 'M', 12, 25, 26, 0, 2, 10, 0, 28, 53, 20);
+insert into player values ('Harry Winks', 'M', 29, 21, 2, 16, 1, 2, 0, 8, 10, 20);
+insert into player values ('Vincent Janssen', 'F', 9, 22, 5, 13, 1, 7, 1, 17, 27, 20);
+insert into player values ('Harry Kane', 'F', 10, 23, 21, 0, 17, 32, 4, 33, 15, 20);
+
+
+
+insert into player values ('Claudio Bravo', 'G', 1, 33, 19, 0, null, null, null, 3, 0, 21);
+insert into player values ('Willy Caballero', 'G', 13, 35, 6, 0, null, null, null, 1, 0, 21);
+insert into player values ('Angus Gunn', 'G', 54, 21, null, null, null, null, null, null, null, 21);
+insert into player values ('Tosin Adarabioyo', 'D', 53, 19, 0, 0, 0, 0, 0, 0, 0, 21);
+insert into player values ('Gaël Clichy', 'D', 22, 31, 13, 1, 1, 1, 0, 4, 4, 21);
+insert into player values ('Aleksandar Kolarov', 'D', 11, 31, 21, 2, 1, 6, 1, 31, 32, 21);
+insert into player values ('Vincent Kompany', 'D', 4, 30, 2, 1, 0, 0, 0, 0, 6, 21);
+insert into player values ('Nicolás Otamendi', 'D', 30, 29, 19, 1, 0, 1, 1, 23, 21, 21);
+insert into player values ('Bacary Sagna', 'D', 3, 34, 12, 1, 0, 1, 1, 6, 2, 21);
+insert into player values ('John Stones', 'D', 24, 22, 18, 3, 0, 1, 0, 8, 4, 21);
+insert into player values ('Pablo Zabaleta', 'D', 5, 32, 10, 4, 1, 1, 0, 14, 11, 21);
+insert into player values ('Kevin De Bruyne', 'M', 17, 25, 22, 2, 4, 16, 9, 30, 27, 21);
+insert into player values ('Fabian Delph', 'M', 18, 27, 0, 4, 0, 0, 0, 0, 2, 21);
+insert into player values ('Brahim Diaz', 'M', 55, 17, null, null, null, null, null, null, null, 21);
+insert into player values ('Aleix García', 'M', 75, 19, 0, 3, 0, 0, 0, 4, 0, 21);
+insert into player values ('Ilkay Gündogan', 'M', 8, 26, 9, 1, 3, 4, 1, 10, 2, 21);
+insert into player values ('Jesús Navas', 'M', 15, 31, 6, 8, 0, 0, 0, 8, 4, 21);
+insert into player values ('Fernando', 'M', 6, 29, 5, 7, 0, 0, 0, 7, 11, 21);
+insert into player values ('Fernandinho', 'M', 25, 31, 19, 1, 1, 5, 1, 26, 33, 21);
+insert into player values ('Leroy Sané', 'M', 19, 21, 8, 5, 2, 4, 1, 3, 4, 21);
+insert into player values ('David Silva', 'M', 21, 31, 21, 2, 2, 11, 4, 37, 19, 21);
+insert into player values ('Yaya Touré', 'M', 42, 33, 12, 2, 4, 11, 0, 4, 14, 21);
+insert into player values ('Nolito', 'F', 9, 30, 9, 6, 4, 11, 2, 9, 16, 21);
+insert into player values ('Sergio Agüero', 'F', 10, 28, 14, 5, 11, 33, 0, 18, 17, 21);
+insert into player values ('Phil Foden', 'F', 80, 16, null, null, null, null, null, null, null, 21);
+insert into player values ('Kelechi Iheanacho', 'F', 72, 20, 5, 10, 4, 7, 3, 2, 6, 21);
+insert into player values ('Raheem Sterling', 'F', 7, 22, 22, 1, 6, 17, 5, 46, 27, 21);
+insert into player values ('Gabriel Jesus', 'F', 33, 19, 3, 1, 3, 4, 1, 5, 3, 21);
+
+
+
+insert into player values ('Petr Cech', 'G', 33, 34, 25, 0, null, null, null, 2, 2, 22);
+insert into player values ('Emiliano Martinez', 'G', 26, 24, null, null, null, null, null, null, null, 22);
+insert into player values ('David Ospina', 'G', 13, 28, 0, 0, null, null, null, 0, 0, 22);
+insert into player values ('Héctor Bellerín', 'D', 24, 21, 18, 2, 0, 4, 2, 9, 11, 22);
+insert into player values ('Mathieu Debuchy', 'D', 2, 31, 1, 0, 0, 0, 0, 0, 0, 22);
+insert into player values ('Kieran Gibbs', 'D', 3, 27, 3, 3, 0, 2, 1, 1, 7, 22);
+insert into player values ('Rob Holding', 'D', 16, 21, 3, 0, 0, 0, 0, 1, 2, 22);
+insert into player values ('Carl Jenkinson', 'D', 25, 25, 1, 0, 0, 0, 0, 1, 1, 22);
+insert into player values ('Laurent Koscielny', 'D', 6, 31, 24, 0, 2, 3, 0, 20, 14, 22);
+insert into player values ('Per Mertesacker', 'D', 4, 32, null, null, null, null, null, null, null, 22);
+insert into player values ('Nacho Monreal', 'D', 18, 31, 22, 1, 0, 2, 2, 24, 18, 22);
+insert into player values ('Shkodran Mustafi', 'D', 20, 24, 18, 0, 1, 2, 1, 9, 24, 22);
+insert into player values ('Gabriel Paulista', 'D', 5, 26, 9, 3, 0, 1, 0, 6, 13, 22);
+insert into player values ('Santi Cazorla', 'M', 19, 32, 7, 1, 2, 4, 2, 2, 4, 22);
+insert into player values ('Francis Coquelin', 'M', 34, 25, 18, 3, 0, 1, 0, 32, 29, 22);
+insert into player values ('Mohamed Elneny', 'M', 35, 24, 6, 6, 0, 0, 1, 4, 9, 22);
+insert into player values ('Alex Iwobi', 'M', 17, 20, 17, 4, 3, 9, 3, 11, 4, 22);
+insert into player values ('Ainsley Maitland-Niles', 'M', 55, 19, 0, 1, 0, 0, 0, 0, 0, 22);
+insert into player values ('Alex Oxlade-Chamberlain', 'M', 15, 23, 10, 11, 2, 6, 4, 14, 18, 22);
+insert into player values ('Aaron Ramsey', 'M', 8, 26, 6, 6, 0, 5, 1, 13, 7, 22);
+insert into player values ('Jeff Reine-Adelaide', 'M', 31, 19, 0, 0, 0, 0, 0, 0, 0, 22);
+insert into player values ('Ben Sheaf', 'M', 65, 19, null, null, null, null, null, null, null, 22);
+insert into player values ('Chris Willock', 'M', 68, 19, null, null, null, null, null, null, null, 22);
+insert into player values ('Granit Xhaka', 'M', 29, 24, 15, 4, 1, 3, 1, 11, 24, 22);
+insert into player values ('Mesut Özil', 'M', 11, 28, 21, 1, 5, 12, 4, 18, 7, 22);
+insert into player values ('Josh Da Silva', 'F', 41, 18, null, null, null, null, null, null, null, 22);
+insert into player values ('Olivier Giroud', 'F', 12, 30, 6, 11, 8, 12, 3, 8, 13, 22);
+insert into player values ('Lucas Pérez', 'F', 9, 28, 2, 8, 1, 4, 0, 2, 2, 22);
+insert into player values ('Yaya Sanogo', 'F', 22, 24, null, null, null, null, null, null, null, 22);
+insert into player values ('Alexis Sánchez', 'F', 7, 28, 24, 1, 17, 37, 8, 42, 32, 22);
+insert into player values ('Theo Walcott', 'F', 14, 27, 18, 1, 8, 24, 2, 22, 13, 22);
+insert into player values ('Danny Welbeck', 'F', 23, 26, 0, 4, 0, 1, 0, 2, 1, 22);
+
+
+
+insert into player values ('Loris Karius', 'G', 1, 23, 10, 0, null, null, null, 1, 0, 23);
+insert into player values ('Alexander Manninger', 'G', 13, 39, 0, 0, null, null, null, 0, 0, 23);
+insert into player values ('Simon Mignolet', 'G', 22, 28, 16, 0, null, null, null, 2, 0, 23);
+insert into player values ('Trent Alexander-Arnold', 'D', 66, 18, 1, 2, 0, 0, 0, 1, 1, 23);
+insert into player values ('Nathaniel Clyne', 'D', 2, 25, 25, 0, 0, 4, 2, 11, 7, 23);
+insert into player values ('Joseph Gomez', 'D', 12, 19, 0, 0, 0, 0, 0, 0, 0, 23);
+insert into player values ('Ragnar Klavan', 'D', 17, 31, 10, 3, 0, 1, 0, 2, 10, 23);
+insert into player values ('Dejan Lovren', 'D', 6, 27, 20, 0, 2, 4, 1, 13, 20, 23);
+insert into player values ('Joël Matip', 'D', 32, 25, 16, 1, 1, 2, 0, 8, 10, 23);
+insert into player values ('James Milner', 'D', 7, 31, 24, 0, 6, 14, 3, 17, 25, 23);
+insert into player values ('Alberto Moreno', 'D', 18, 24, 2, 7, 0, 0, 1, 6, 2, 23);
+insert into player values ('Connor Randall', 'D', 56, 21, 0, 0, 0, 0, 0, 0, 0, 23);
+insert into player values ('Jordan Williams', 'D', 49, 21, null, null, null, null, null, null, null, 23);
+insert into player values ('Emre Can', 'M', 23, 23, 14, 6, 3, 6, 2, 14, 35, 23);
+insert into player values ('Philippe Coutinho', 'M', 10, 24, 17, 2, 6, 22, 5, 27, 15, 23);
+insert into player values ('Ovie Ejaria', 'M', 53, 19, 0, 2, 0, 0, 0, 0, 0, 23);
+insert into player values ('Marko Grujic', 'M', 16, 20, 0, 2, 0, 1, 0, 1, 1, 23);
+insert into player values ('Jordan Henderson', 'M', 14, 26, 24, 0, 1, 4, 4, 17, 28, 23);
+insert into player values ('Adam Lallana', 'M', 20, 28, 22, 2, 7, 13, 7, 21, 16, 23);
+insert into player values ('Sadio Mané', 'M', 19, 24, 22, 1, 11, 21, 4, 45, 28, 23);
+insert into player values ('Paulo Manuel Neves Alves', 'M', 61, null, null, null, null, null, null, null, null, 23);
+insert into player values ('Sheyi Ojo', 'M', 54, 19, null, null, null, null, null, null, null, 23);
+insert into player values ('Lucas', 'M', 21, 30, 6, 7, 0, 1, 0, 5, 5, 23);
+insert into player values ('Kevin Stewart', 'M', 35, 23, 0, 4, 0, 0, 0, 0, 1, 23);
+insert into player values ('Georginio Wijnaldum', 'M', 5, 26, 21, 3, 3, 14, 4, 24, 13, 23);
+insert into player values ('Harry Wilson', 'M', 59, 19, null, null, null, null, null, null, null, 23);
+insert into player values ('Ben Woodburn', 'M', 58, 17, 0, 2, 0, 0, 0, 0, 0, 23);
+insert into player values ('Roberto Firmino', 'F', 11, 25, 25, 0, 8, 33, 3, 26, 41, 23);
+insert into player values ('Danny Ings', 'F', 28, 24, null, null, null, null, null, null, null, 23);
+insert into player values ('Divock Origi', 'F', 27, 21, 6, 16, 4, 7, 1, 18, 11, 23);
+insert into player values ('Daniel Sturridge', 'F', 15, 27, 5, 9, 2, 17, 1, 5, 4, 23);
+
+
+
+insert into player values ('Joel Castro', 'G', 40, 20, null, null, null, null, null, null, null, 24);
+insert into player values ('David De Gea', 'G', 1, 26, 25, 0, null, null, null, 2, 0, 24);
+insert into player values ('Dean Henderson', 'G', 34, 19, null, null, null, null, null, null, null, 24);
+insert into player values ('Sergio Romero', 'G', 20, 30, 0, 0, null, null, null, 0, 0, 24);
+insert into player values ('Eric Bailly', 'D', 3, 22, 13, 1, 0, 0, 0, 9, 14, 24);
+insert into player values ('Daley Blind', 'D', 17, 26, 15, 2, 1, 1, 2, 11, 13, 24);
+insert into player values ('Matteo Darmian', 'D', 36, 27, 9, 1, 0, 0, 0, 9, 10, 24);
+insert into player values ('Timothy Fosu-Mensah', 'D', 24, 19, 0, 1, 0, 0, 0, 0, 0, 24);
+insert into player values ('Phil Jones', 'D', 4, 25, 12, 0, 0, 0, 0, 10, 5, 24);
+insert into player values ('Marcos Rojo', 'D', 5, 27, 13, 2, 0, 3, 0, 4, 17, 24);
+insert into player values ('Luke Shaw', 'D', 23, 21, 6, 1, 0, 0, 0, 4, 4, 24);
+insert into player values ('Chris Smalling', 'D', 12, 27, 9, 5, 1, 1, 1, 5, 7, 24);
+insert into player values ('Axel Tuanzebe', 'D', 38, 19, null, null, null, null, null, null, null, 24);
+insert into player values ('Antonio Valencia', 'D', 25, 31, 22, 0, 0, 1, 2, 15, 29, 24);
+insert into player values ('Michael Carrick', 'M', 16, 35, 10, 1, 0, 0, 0, 13, 2, 24);
+insert into player values ('Marouane Fellaini', 'M', 27, 29, 10, 9, 0, 5, 0, 9, 22, 24);
+insert into player values ('Ander Herrera', 'M', 21, 27, 20, 2, 0, 4, 3, 34, 37, 24);
+insert into player values ('Jesse Lingard', 'M', 14, 24, 9, 4, 0, 8, 2, 3, 12, 24);
+insert into player values ('Juan Mata', 'M', 8, 28, 14, 6, 6, 21, 2, 14, 8, 24);
+insert into player values ('Henrikh Mkhitaryan', 'M', 22, 28, 10, 5, 3, 13, 1, 16, 14, 24);
+insert into player values ('Paul Pogba', 'M', 6, 23, 24, 0, 4, 27, 3, 56, 53, 24);
+insert into player values ('Bastian Schweinsteiger', 'M', 31, 32, 0, 0, 0, 0, 0, 0, 0, 24);
+insert into player values ('Ashley Young', 'M', 18, 31, 2, 3, 0, 0, 0, 4, 1, 24);
+insert into player values ('Zlatan Ibrahimovic', 'F', 9, 35, 24, 0, 15, 42, 4, 17, 49, 24);
+insert into player values ('Anthony Martial', 'F', 11, 21, 10, 4, 3, 10, 4, 13, 13, 24);
+insert into player values ('Marcus Rashford', 'F', 19, 19, 10, 10, 3, 10, 1, 19, 7, 24);
+insert into player values ('Wayne Rooney', 'F', 10, 31, 8, 9, 2, 11, 5, 7, 14, 24);
+
+
+
+insert into player values ('Mateusz Hewelt', 'G', 41, 20, 0, 0, null, null, null, 0, 0, 25);
+insert into player values ('Joel Robles', 'G', 1, 26, 10, 1, null, null, null, 1, 0, 25);
+insert into player values ('Maarten Stekelenburg', 'G', 22, 34, 16, 0, null, null, null, 1, 0, 25);
+insert into player values ('Leighton Baines', 'D', 3, 32, 20, 0, 2, 5, 2, 20, 22, 25);
+insert into player values ('Seamus Coleman', 'D', 23, 28, 23, 0, 4, 7, 3, 23, 15, 25);
+insert into player values ('Ramiro Funes Mori', 'D', 25, 25, 15, 5, 0, 2, 1, 14, 8, 25);
+insert into player values ('Mason Holgate', 'D', 30, 20, 7, 2, 0, 1, 1, 9, 6, 25);
+insert into player values ('Phil Jagielka', 'D', 6, 34, 14, 2, 0, 2, 0, 19, 9, 25);
+insert into player values ('Jonjoe Kenny', 'D', 43, 19, 0, 0, 0, 0, 0, 0, 0, 25);
+insert into player values ('Ashley Williams', 'D', 5, 32, 24, 1, 1, 4, 0, 8, 26, 25);
+insert into player values ('Ross Barkley', 'M', 8, 23, 22, 2, 4, 22, 5, 26, 32, 25);
+insert into player values ('Gareth Barry', 'M', 18, 36, 19, 3, 2, 6, 1, 20, 38, 25);
+insert into player values ('Muhamed Besic', 'M', 21, 24, null, null, null, null, null, null, null, 25);
+insert into player values ('Tom Davies', 'M', 26, 18, 6, 6, 1, 3, 2, 20, 13, 25);
+insert into player values ('Idrissa Gueye', 'M', 17, 27, 21, 0, 1, 4, 1, 32, 32, 25);
+insert into player values ('Aaron Lennon', 'M', 12, 29, 6, 5, 0, 0, 1, 3, 1, 25);
+insert into player values ('James McCarthy', 'M', 16, 26, 7, 4, 1, 3, 1, 7, 9, 25);
+insert into player values ('Kevin Mirallas', 'M', 11, 29, 15, 9, 3, 16, 3, 16, 17, 25);
+insert into player values ('Morgan Schneiderlin', 'M', 2, 27, 4, 5, 0, 2, 0, 7, 9, 25);
+insert into player values ('Yannick Bolasie', 'F', 14, 27, 12, 2, 1, 6, 4, 15, 24, 25);
+insert into player values ('Dominic Calvert-Lewin', 'F', 29, 19, 1, 3, 0, 0, 0, 1, 0, 25);
+insert into player values ('Arouna Koné', 'F', 9, 33, 0, 3, 0, 2, 0, 0, 0, 25);
+insert into player values ('Ademola Lookman', 'F', 31, 19, 3, 3, 1, 6, 0, 7, 3, 25);
+insert into player values ('Romelu Lukaku', 'F', 10, 23, 24, 1, 17, 36, 4, 26, 24, 25);
+insert into player values ('Enner Valencia', 'F', 19, 27, 6, 10, 1, 6, 0, 12, 19, 25);
+
+
+
+insert into player values ('Ben Foster', 'G', 1, 33, 26, 0, null, null, null, 4, 0, 26);
+insert into player values ('Boaz Myhill', 'G', 13, 34, 0, 0, null, null, null, 0, 0, 26);
+insert into player values ('Jack Rose', 'G', 38, 22, 0, 0, null, null, null, 0, 0, 26);
+insert into player values ('Craig Dawson', 'D', 25, 26, 25, 0, 1, 4, 0, 25, 26, 26);
+insert into player values ('Jonny Evans', 'D', 6, 29, 18, 1, 1, 2, 1, 12, 19, 26);
+insert into player values ('Brendan Galloway', 'D', 20, 20, 3, 0, 0, 1, 0, 3, 6, 26);
+insert into player values ('Gareth McAuley', 'D', 23, 37, 26, 0, 6, 7, 1, 11, 20, 26);
+insert into player values ('Allan Nyom', 'D', 2, 28, 19, 2, 0, 0, 1, 13, 36, 26);
+insert into player values ('Jonas Olsson', 'D', 3, 33, 7, 0, 0, 0, 0, 6, 12, 26);
+insert into player values ('Marc Wilson', 'D', 12, 29, 0, 0, 0, 0, 0, 0, 0, 26);
+insert into player values ('Kane Wilson', 'D', 49, 16, 0, 0, 0, 0, 0, 0, 0, 26);
+insert into player values ('Chris Brunt', 'M', 11, 32, 17, 2, 3, 8, 3, 3, 13, 26);
+insert into player values ('Nacer Chadli', 'M', 22, 27, 18, 3, 5, 11, 4, 10, 10, 26);
+insert into player values ('Sam Field', 'M', 47, 18, 2, 3, 0, 0, 0, 2, 3, 26);
+insert into player values ('Darren Fletcher', 'M', 24, 33, 26, 0, 2, 5, 2, 17, 12, 26);
+insert into player values ('Rekeem Harper', 'M', 34, 16, 0, 0, 0, 0, 0, 0, 0, 26);
+insert into player values ('Jonathan Leko', 'M', 45, 17, 0, 6, 0, 0, 1, 5, 0, 26);
+insert into player values ('Jake Livermore', 'M', 8, 27, 23, 2, 1, 7, 1, 12, 21, 26);
+insert into player values ('James McClean', 'M', 14, 27, 7, 15, 1, 10, 1, 10, 26, 26);
+insert into player values ('James Morrison', 'M', 7, 30, 13, 8, 5, 6, 2, 11, 16, 26);
+insert into player values ('Matthew Phillips', 'M', 10, 25, 24, 0, 4, 9, 8, 7, 11, 26);
+insert into player values ('Claudio Yacob', 'M', 5, 29, 22, 2, 0, 0, 0, 25, 31, 26);
+insert into player values ('Hal Robson-Kanu', 'F', 4, 27, 1, 19, 1, 2, 2, 12, 14, 26);
+insert into player values ('Salomón Rondón', 'F', 9, 27, 24, 2, 7, 18, 2, 42, 31, 26);
+
+
+
+insert into player values ('Darren Randolph', 'G', 1, 29, 15, 0, null, null, null, 1, 0, 27);
+insert into player values ('Adrián', 'G', 13, 30, 11, 0, null, null, null, 3, 0, 27);
+insert into player values ('Raphael Spiegel', 'G', 34, 24, 0, 0, null, null, null, 0, 0, 27);
+insert into player values ('Álvaro Arbeloa', 'D', 5, 34, 1, 2, 0, 0, 0, 3, 5, 27);
+insert into player values ('Sam Byram', 'D', 22, 23, 5, 3, 0, 0, 0, 5, 8, 27);
+insert into player values ('James Collins', 'D', 19, 33, 10, 3, 1, 2, 0, 3, 4, 27);
+insert into player values ('Aaron Cresswell', 'D', 3, 27, 17, 0, 0, 2, 1, 5, 8, 27);
+insert into player values ('José Fonte', 'D', 23, 33, 21, 0, 0, 2, 0, 14, 21, 27);
+insert into player values ('Doneil Henry', 'D', 25, 23, null, null, null, null, null, null, null, 27);
+insert into player values ('Arthur Masuaku', 'D', 26, 23, 6, 0, 0, 0, 1, 6, 9, 27);
+insert into player values ('Angelo Ogbonna', 'D', 21, 28, 19, 0, 0, 1, 0, 3, 11, 27);
+insert into player values ('Winston Reid', 'D', 2, 28, 23, 0, 2, 2, 2, 30, 25, 27);
+insert into player values ('Michail Antonio', 'M', 30, 26, 25, 0, 8, 21, 3, 38, 30, 27);
+insert into player values ('Grady Diangana', 'M', 55, 18, null, null, null, null, null, null, null, 27);
+insert into player values ('Sofiane Feghouli', 'M', 7, 27, 7, 8, 2, 2, 2, 14, 6, 27);
+insert into player values ('Edimilson Fernandes', 'M', 31, 20, 3, 14, 0, 1, 0, 4, 10, 27);
+insert into player values ('Cheikhou Kouyaté', 'M', 8, 27, 21, 0, 0, 1, 0, 17, 30, 27);
+insert into player values ('Manuel Lanzini', 'M', 10, 24, 19, 4, 5, 11, 2, 21, 15, 27);
+insert into player values ('Mark Noble', 'M', 16, 29, 24, 0, 3, 5, 0, 31, 24, 27);
+insert into player values ('Håvard Nordtveit', 'M', 4, 26, 8, 4, 0, 0, 1, 4, 9, 27);
+insert into player values ('Pedro Obiang', 'M', 14, 24, 18, 1, 1, 2, 1, 33, 23, 27);
+insert into player values ('Domingos Quina', 'M', 36, 17, 0, 0, 0, 0, 0, 0, 0, 27);
+insert into player values ('Declan  Rice', 'M', 41, 18, 0, 0, 0, 0, 0, 0, 0, 27);
+insert into player values ('Robert Snodgrass', 'M', 11, 29, 22, 2, 7, 17, 3, 45, 37, 27);
+insert into player values ('Gökhan Töre', 'M', 17, 25, 3, 2, 0, 0, 1, 1, 4, 27);
+insert into player values ('André Ayew', 'F', 20, 27, 6, 7, 2, 3, 0, 6, 8, 27);
+insert into player values ('Jonathan Calleri', 'F', 28, 23, 0, 9, 1, 2, 0, 3, 8, 27);
+insert into player values ('Andy Carroll', 'F', 9, 28, 9, 3, 6, 8, 0, 20, 16, 27);
+insert into player values ('Ashley Fletcher', 'F', 24, 21, 2, 11, 0, 3, 0, 4, 9, 27);
+insert into player values ('Diafra Sakho', 'F', 15, 27, 2, 0, 1, 1, 0, 3, 2, 27);
+
+
+
+insert into player values ('Daniel Bachmann', 'G', 35, 22, null, null, null, null, null, null, null, 28);
+insert into player values ('Jack Butland', 'G', 1, 23, null, null, null, null, null, null, null, 28);
+insert into player values ('Shay Given', 'G', 24, 40, 5, 0, null, null, null, 1, 0, 28);
+insert into player values ('Lee Grant', 'G', 33, 34, 21, 0, null, null, null, 1, 0, 28);
+insert into player values ('Phillip Bardsley', 'D', 2, 31, 12, 1, 0, 2, 0, 14, 18, 28);
+insert into player values ('Geoff Cameron', 'D', 20, 31, 7, 1, 0, 3, 0, 10, 1, 28);
+insert into player values ('Thomas Edwards', 'D', 72, 18, 0, 0, 0, 0, 0, 0, 0, 28);
+insert into player values ('Glen Johnson', 'D', 8, 32, 13, 2, 0, 4, 0, 11, 7, 28);
+insert into player values ('Bruno Martins Indi', 'D', 15, 25, 23, 0, 1, 5, 0, 5, 14, 28);
+insert into player values ('Marc Muniesa', 'D', 5, 24, 3, 2, 1, 2, 0, 3, 2, 28);
+insert into player values ('Erik Pieters', 'D', 3, 28, 25, 0, 0, 0, 1, 47, 39, 28);
+insert into player values ('Ryan Shawcross', 'D', 17, 29, 23, 0, 1, 7, 1, 20, 23, 28);
+insert into player values ('Charlie Adam', 'M', 16, 31, 15, 4, 1, 8, 3, 20, 36, 28);
+insert into player values ('Ibrahim Afellay', 'M', 14, 30, 3, 6, 0, 0, 0, 7, 3, 28);
+insert into player values ('Joe Allen', 'M', 4, 26, 23, 2, 6, 16, 2, 47, 21, 28);
+insert into player values ('Giannelli Imbula', 'M', 21, 24, 9, 2, 0, 0, 0, 12, 3, 28);
+insert into player values ('Stephen Ireland', 'M', 7, 30, null, null, null, null, null, null, null, 28);
+insert into player values ('Xherdan Shaqiri', 'M', 22, 25, 14, 0, 3, 8, 0, 11, 9, 28);
+insert into player values ('Ramadan Sobhi', 'M', 32, 19, 3, 6, 0, 0, 1, 7, 4, 28);
+insert into player values ('Glenn Whelan', 'M', 6, 33, 20, 2, 0, 1, 0, 18, 12, 28);
+insert into player values ('Marko Arnautovic', 'F', 10, 27, 22, 0, 3, 13, 3, 25, 31, 28);
+insert into player values ('Saido Berahino', 'F', 9, 23, 3, 4, 0, 3, 0, 6, 11, 28);
+insert into player values ('Wilfried Bony', 'F', 12, 28, 9, 1, 2, 5, 0, 12, 11, 28);
+insert into player values ('Peter Crouch', 'F', 25, 36, 10, 8, 4, 9, 1, 15, 16, 28);
+insert into player values ('Mame Diouf', 'F', 18, 29, 10, 7, 0, 0, 2, 16, 17, 28);
+insert into player values ('Julien Ngoy', 'F', 45, 19, 0, 5, 0, 0, 0, 1, 0, 28);
+insert into player values ('Thibaud Verlinden', 'F', 55, 17, 0, 0, 0, 0, 0, 0, 0, 28);
+insert into player values ('Jonathan Walters', 'F', 19, 33, 9, 7, 2, 9, 1, 16, 8, 28);
+
+
+
+insert into player values ('Tom Heaton', 'G', 1, 30, 24, 0, null, null, null, 0, 0, 29);
+insert into player values ('Nick Pope', 'G', 29, 24, 0, 0, null, null, null, 0, 0, 29);
+insert into player values ('Paul Robinson', 'G', 17, 37, 2, 0, null, null, null, 0, 0, 29);
+insert into player values ('Tendayi Darikwa', 'D', 27, 25, 0, 0, 0, 0, 0, 0, 0, 29);
+insert into player values ('Jon Flanagan', 'D', 4, 24, 3, 2, 0, 0, 0, 2, 7, 29);
+insert into player values ('Michael Keane', 'D', 5, 24, 26, 0, 2, 6, 1, 8, 11, 29);
+insert into player values ('Kevin Long', 'D', 28, 26, 0, 0, 0, 0, 0, 0, 0, 29);
+insert into player values ('Matthew Lowton', 'D', 2, 27, 24, 0, 0, 2, 1, 14, 22, 29);
+insert into player values ('Ben Mee', 'D', 6, 27, 26, 0, 1, 4, 0, 23, 15, 29);
+insert into player values ('James Tarkowski', 'D', 26, 24, 0, 11, 0, 0, 0, 5, 5, 29);
+insert into player values ('Stephen Ward', 'D', 23, 31, 25, 0, 1, 1, 0, 41, 24, 29);
+insert into player values ('Scott Arfield', 'M', 37, 28, 16, 7, 1, 6, 0, 14, 27, 29);
+insert into player values ('Joey Barton', 'M', 19, 34, 4, 2, 1, 2, 0, 7, 5, 29);
+insert into player values ('George Boyd', 'M', 21, 31, 22, 3, 1, 5, 0, 16, 23, 29);
+insert into player values ('Robbie Brady', 'M', 12, 25, 2, 1, 1, 2, 1, 4, 1, 29);
+insert into player values ('Steven Defour', 'M', 16, 28, 15, 3, 1, 6, 3, 8, 14, 29);
+insert into player values ('Johann Gudmundsson', 'M', 25, 26, 10, 6, 1, 7, 1, 8, 2, 29);
+insert into player values ('Jeff Hendrick', 'M', 13, 25, 19, 1, 2, 4, 0, 26, 31, 29);
+insert into player values ('Dean Marney', 'M', 8, 33, 21, 0, 1, 3, 2, 20, 35, 29);
+insert into player values ('Ashley Westwood', 'M', 18, 26, 2, 1, 0, 0, 0, 0, 4, 29);
+insert into player values ('Daniel Kofy Agyei', 'F', 32, 25, 0, 0, 0, 0, 0, 0, 0, 29);
+insert into player values ('Ashley Barnes', 'F', 10, 27, 11, 6, 4, 14, 1, 50, 30, 29);
+insert into player values ('Andre Gray', 'F', 7, 25, 18, 2, 6, 15, 2, 7, 11, 29);
+insert into player values ('Sam Vokes', 'F', 9, 27, 14, 12, 5, 11, 2, 17, 14, 29);
+
+
+
+insert into player values ('Giedrius Arlauskis', 'G', 34, 29, 0, 0, null, null, null, 0, 0, 30);
+insert into player values ('Rene Gilmartin', 'G', 13, 29, null, null, null, null, null, null, null, 30);
+insert into player values ('Costel Pantilimon', 'G', 30, 30, 0, 2, null, null, null, 0, 0, 30);
+insert into player values ('Heurelho Gomes', 'G', 1, 36, 26, 0, null, null, null, 3, 1, 30);
+insert into player values ('Miguel Britos', 'D', 3, 31, 21, 0, 0, 2, 1, 23, 29, 30);
+insert into player values ('Craig Cathcart', 'D', 15, 28, 9, 2, 0, 0, 0, 2, 8, 30);
+insert into player values ('José Holebas', 'D', 25, 32, 24, 0, 2, 6, 4, 16, 35, 30);
+insert into player values ('Brice Dja Djédjé', 'D', 26, 26, null, null, null, null, null, null, null, 30);
+insert into player values ('Andrew Eleftheriou', 'D', 42, null, 0, 0, 0, 0, 0, 0, 0, 30);
+insert into player values ('Daryl Janmaat', 'D', 22, 27, 9, 7, 1, 5, 1, 2, 11, 30);
+insert into player values ('Christian Kabasele', 'D', 27, 26, 5, 6, 2, 3, 0, 3, 10, 30);
+insert into player values ('Younes Kaboul', 'D', 4, 31, 20, 0, 2, 4, 0, 6, 19, 30);
+insert into player values ('Adrian Mariappa', 'D', 6, 30, 0, 0, 0, 0, 0, 0, 0, 30);
+insert into player values ('Brandon Mason', 'D', 32, null, 0, 1, 0, 0, 0, 0, 1, 30);
+insert into player values ('Sebastian Prödl', 'D', 5, 29, 23, 1, 1, 5, 1, 18, 30, 30);
+insert into player values ('Charlie Rowan', 'D', 38, null, 0, 0, 0, 0, 0, 0, 0, 30);
+insert into player values ('Juan Zúñiga', 'D', 18, 31, 6, 10, 1, 1, 0, 20, 3, 30);
+insert into player values ('Nordin Amrabat', 'M', 7, 29, 16, 2, 0, 6, 3, 31, 36, 30);
+insert into player values ('Valon Behrami', 'M', 11, 31, 21, 0, 0, 0, 0, 31, 26, 30);
+insert into player values ('Étienne Capoue', 'M', 29, 28, 26, 0, 5, 14, 1, 39, 43, 30);
+insert into player values ('Tom Cleverley', 'M', 8, 27, 9, 7, 0, 1, 2, 4, 12, 30);
+insert into player values ('Abdoulaye Doucouré', 'M', 16, 24, 4, 4, 0, 2, 0, 2, 3, 30);
+insert into player values ('Roberto Pereyra', 'M', 37, 26, 12, 1, 2, 4, 2, 18, 8, 30);
+insert into player values ('Carl Stewart', 'M', 35, 19, 0, 0, 0, 0, 0, 0, 0, 30);
+insert into player values ('Ben Watson', 'M', 23, 31, 0, 4, 0, 0, 0, 0, 2, 30);
+insert into player values ('Troy Deeney', 'F', 9, 28, 24, 2, 8, 15, 3, 20, 34, 30);
+insert into player values ('M''baye Niang', 'F', 21, 22, 4, 0, 1, 3, 1, 8, 9, 30);
+insert into player values ('Stefano Okaka', 'F', 33, 27, 4, 5, 2, 5, 0, 9, 13, 30);
+insert into player values ('Issac Success', 'F', 10, 21, 1, 11, 1, 5, 0, 18, 6, 30);
+insert into player values ('Mauro Zárate', 'F', 20, 29, 3, 0, 0, 3, 0, 7, 1, 30);
+
+
+
+insert into player values ('Fraser Forster', 'G', 1, 28, 25, 0, null, null, null, 0, 0, 31);
+insert into player values ('Mouez Hassan', 'G', 40, 21, 0, 0, null, null, null, 0, 0, 31);
+insert into player values ('Harry  Lewis', 'G', 41, 19, 0, 0, null, null, null, 0, 0, 31);
+insert into player values ('Alex McCarthy', 'G', 13, 27, 0, 0, null, null, null, 0, 0, 31);
+insert into player values ('Stuart Taylor', 'G', 28, 36, 0, 0, null, null, null, 0, 0, 31);
+insert into player values ('Cédric Soares', 'D', 2, 25, 18, 0, 0, 3, 1, 9, 13, 31);
+insert into player values ('Ryan Bertrand', 'D', 21, 27, 17, 0, 1, 5, 3, 23, 17, 31);
+insert into player values ('Martín Cáceres', 'D', 12, 29, null, null, null, null, null, null, null, 31);
+insert into player values ('Florin Gardos', 'D', 5, 28, 0, 0, 0, 0, 0, 0, 0, 31);
+insert into player values ('Cuco Martina', 'D', 15, 27, 6, 3, 0, 0, 0, 5, 4, 31);
+insert into player values ('Jérémy Pied', 'D', 26, 28, 0, 1, 0, 0, 0, 0, 1, 31);
+insert into player values ('Jack Stephens', 'D', 24, 23, 3, 2, 0, 0, 0, 0, 5, 31);
+insert into player values ('Matt Targett', 'D', 33, 21, 4, 0, 0, 0, 0, 3, 1, 31);
+insert into player values ('Maya Yoshida', 'D', 3, 28, 10, 0, 0, 1, 0, 11, 11, 31);
+insert into player values ('Virgil van Dijk', 'D', 17, 25, 21, 0, 1, 5, 0, 17, 18, 31);
+insert into player values ('Sofiane Boufal', 'M', 19, 23, 8, 5, 1, 4, 0, 15, 14, 31);
+insert into player values ('Jordy Clasie', 'M', 4, 25, 10, 3, 0, 3, 1, 3, 11, 31);
+insert into player values ('Steven Davis', 'M', 8, 32, 18, 2, 0, 3, 2, 8, 11, 31);
+insert into player values ('Jake Hesketh', 'M', 42, 20, 0, 0, 0, 0, 0, 0, 0, 31);
+insert into player values ('Pierre-Emile Højbjerg', 'M', 23, 21, 11, 7, 0, 4, 0, 26, 15, 31);
+insert into player values ('Lloyd Isgrove', 'M', 27, 24, 0, 0, 0, 0, 0, 0, 0, 31);
+insert into player values ('Sam McQueen', 'M', 38, 22, 4, 6, 0, 0, 0, 3, 2, 31);
+insert into player values ('Nathan Redmond', 'M', 22, 22, 22, 2, 3, 18, 1, 23, 27, 31);
+insert into player values ('Harrison Reed', 'M', 18, 22, 1, 1, 0, 0, 0, 0, 1, 31);
+insert into player values ('Oriol Romeu', 'M', 14, 25, 24, 0, 0, 2, 0, 24, 45, 31);
+insert into player values ('Josh Sims', 'M', 39, 19, 1, 4, 0, 3, 1, 3, 1, 31);
+insert into player values ('Dusan Tadic', 'M', 11, 28, 18, 3, 2, 14, 2, 23, 21, 31);
+insert into player values ('James Ward-Prowse', 'M', 16, 22, 11, 8, 2, 12, 4, 15, 16, 31);
+insert into player values ('Charlie Austin', 'F', 10, 27, 10, 3, 6, 17, 1, 20, 14, 31);
+insert into player values ('Manolo Gabbiadini', 'F', 20, 25, 2, 0, 3, 4, 0, 4, 2, 31);
+insert into player values ('Shane Long', 'F', 7, 30, 7, 14, 3, 12, 0, 21, 17, 31);
+insert into player values ('Olufela Olomola', 'F', 32, 19, 0, 0, 0, 0, 0, 0, 0, 31);
+insert into player values ('Jay Rodriguez', 'F', 9, 27, 7, 8, 4, 12, 1, 6, 11, 31);
+
+
+
+insert into player values ('Ryan Allsop', 'G', 21, 24, 0, 0, null, null, null, 0, 0, 32);
+insert into player values ('Artur Boruc', 'G', 1, 37, 24, 0, null, null, null, 4, 0, 32);
+insert into player values ('Adam Federici', 'G', 23, 32, 2, 0, null, null, null, 0, 0, 32);
+insert into player values ('Aaron Ramsdale', 'G', null, 18, null, null, null, null, null, null, null, 32);
+insert into player values ('Baily Cargill', 'D', 38, 21, 0, 0, 0, 0, 0, 0, 0, 32);
+insert into player values ('Steve Cook', 'D', 3, 25, 26, 0, 2, 7, 0, 10, 9, 32);
+insert into player values ('Charlie Daniels', 'D', 11, 30, 22, 0, 3, 4, 3, 15, 6, 32);
+insert into player values ('Simon Francis', 'D', 2, 32, 23, 0, 0, 0, 1, 11, 21, 32);
+insert into player values ('Oliver Harfield', 'D', 40, 19, null, null, null, null, null, null, null, 32);
+insert into player values ('Corey Jordan', 'D', 37, 17, null, null, null, null, null, null, null, 32);
+insert into player values ('Tyrone Mings', 'D', 26, 23, 4, 2, 0, 1, 0, 4, 7, 32);
+insert into player values ('Jack Simpson', 'D', 42, 20, null, null, null, null, null, null, null, 32);
+insert into player values ('Adam Smith', 'D', 15, 25, 22, 2, 1, 4, 4, 52, 33, 32);
+insert into player values ('Brad Smith', 'D', 14, 22, 3, 2, 0, 1, 0, 3, 2, 32);
+insert into player values ('Harry Arter', 'M', 8, 27, 24, 1, 1, 8, 2, 35, 17, 32);
+insert into player values ('Lewis Cook', 'M', 18, 20, 1, 0, 0, 0, 0, 0, 0, 32);
+insert into player values ('Ryan Fraser', 'M', 24, 23, 11, 5, 3, 6, 2, 40, 10, 32);
+insert into player values ('Dan Gosling', 'M', 4, 27, 9, 11, 2, 2, 0, 23, 18, 32);
+insert into player values ('Jordon Ibe', 'M', 33, 21, 12, 7, 0, 1, 0, 12, 4, 32);
+insert into player values ('Keelan O''Connell', 'M', 52, null, null, null, null, null, null, null, null, 32);
+insert into player values ('Marc Pugh', 'M', 7, 29, 4, 5, 1, 1, 1, 7, 2, 32);
+insert into player values ('Junior Stanislas', 'M', 19, 27, 14, 1, 4, 15, 5, 5, 4, 32);
+insert into player values ('Andrew Surman', 'M', 6, 30, 18, 1, 0, 1, 1, 14, 11, 32);
+insert into player values ('Jack Wilshere', 'M', 32, 25, 19, 4, 0, 8, 2, 45, 20, 32);
+insert into player values ('Benik Afobe', 'F', 9, 24, 5, 16, 3, 12, 1, 7, 12, 32);
+insert into player values ('Max Gradel', 'F', 10, 29, 0, 5, 0, 1, 0, 1, 4, 32);
+insert into player values ('Joshua King', 'F', 17, 25, 20, 5, 7, 18, 1, 31, 42, 32);
+insert into player values ('Lys Mousset', 'F', 31, 21, 0, 3, 0, 1, 0, 0, 2, 32);
+insert into player values ('Callum Wilson', 'F', 13, 25, 16, 4, 6, 12, 0, 26, 30, 32);
+
+
+
+insert into player values ('Ben Hamer', 'G', 12, 29, 0, 0, null, null, null, 0, 0, 33);
+insert into player values ('Kasper Schmeichel', 'G', 1, 30, 18, 0, null, null, null, 0, 0, 33);
+insert into player values ('Ron-Robert Zieler', 'G', 21, 28, 8, 1, null, null, null, 0, 0, 33);
+insert into player values ('Yohan Benalouane', 'D', 29, 29, 0, 0, 0, 0, 0, 0, 0, 33);
+insert into player values ('Ben Chilwell', 'D', 3, 20, 3, 2, 0, 1, 0, 4, 4, 33);
+insert into player values ('Christian Fuchs', 'D', 28, 30, 24, 1, 1, 4, 3, 3, 25, 33);
+insert into player values ('Robert Huth', 'D', 6, 32, 24, 0, 0, 4, 1, 13, 31, 33);
+insert into player values ('Wes Morgan', 'D', 5, 33, 26, 0, 1, 3, 0, 7, 19, 33);
+insert into player values ('Danny Simpson', 'D', 17, 30, 23, 1, 0, 0, 0, 7, 25, 33);
+insert into player values ('Molla Wague', 'D', 18, 26, null, null, null, null, null, null, null, 33);
+insert into player values ('Marcin Wasilewski', 'D', 27, 36, 1, 0, 0, 0, 0, 0, 0, 33);
+insert into player values ('Marc Albrighton', 'M', 11, 27, 19, 3, 0, 3, 2, 10, 12, 33);
+insert into player values ('Daniel Amartey', 'M', 13, 22, 15, 4, 1, 3, 1, 8, 26, 33);
+insert into player values ('Danny Drinkwater', 'M', 4, 26, 19, 1, 1, 3, 1, 8, 34, 33);
+insert into player values ('Demarai Gray', 'M', 22, 20, 6, 14, 1, 4, 2, 8, 4, 33);
+insert into player values ('Bartosz  Kapustka', 'M', 14, 20, 0, 0, 0, 0, 0, 0, 0, 33);
+insert into player values ('Andy King', 'M', 10, 28, 11, 5, 1, 6, 0, 13, 14, 33);
+insert into player values ('Riyad Mahrez', 'M', 26, 26, 22, 2, 3, 16, 2, 37, 18, 33);
+insert into player values ('Nampalys Mendy', 'M', 24, 24, 4, 0, 0, 0, 0, 8, 4, 33);
+insert into player values ('Wilfred Ndidi', 'M', 25, 20, 6, 0, 0, 3, 0, 3, 7, 33);
+insert into player values ('Ahmed Musa', 'F', 7, 24, 7, 11, 2, 6, 0, 12, 13, 33);
+insert into player values ('Shinji Okazaki', 'F', 20, 30, 13, 8, 2, 7, 0, 29, 20, 33);
+insert into player values ('Islam Slimani', 'F', 19, 28, 11, 3, 5, 9, 3, 13, 17, 33);
+insert into player values ('Leonardo Ulloa', 'F', 23, 30, 1, 11, 1, 4, 0, 3, 9, 33);
+insert into player values ('Jamie Vardy', 'F', 9, 30, 21, 2, 7, 12, 2, 13, 20, 33);
+
+
+
+insert into player values ('Mark Birighitti', 'G', 19, 25, null, null, null, null, null, null, null, 34);
+insert into player values ('Lukasz Fabianski', 'G', 1, 31, 26, 0, null, null, null, 3, 0, 34);
+insert into player values ('Kristoffer Nordfeldt', 'G', 13, 27, 0, 0, null, null, null, 0, 0, 34);
+insert into player values ('Gerhard Tremmel', 'G', 25, 38, null, null, null, null, null, null, null, 34);
+insert into player values ('Jordi Amat', 'D', 2, 24, 15, 0, 0, 4, 0, 5, 25, 34);
+insert into player values ('Federico Fernández', 'D', 33, 28, 15, 0, 0, 1, 2, 12, 16, 34);
+insert into player values ('Stephen Kingsley', 'D', 35, 22, 9, 0, 0, 1, 0, 5, 3, 34);
+insert into player values ('Alfie Mawson', 'D', 6, 23, 15, 0, 3, 4, 0, 11, 5, 34);
+insert into player values ('Kyle Naughton', 'D', 26, 28, 21, 0, 0, 4, 0, 15, 20, 34);
+insert into player values ('Martin Olsson', 'D', 16, 28, 5, 0, 1, 1, 0, 9, 5, 34);
+insert into player values ('Angel Rangel', 'D', 22, 34, 7, 9, 1, 3, 0, 6, 10, 34);
+insert into player values ('Mike van der Hoorn', 'D', 5, 24, 7, 0, 1, 2, 0, 8, 11, 34);
+insert into player values ('Leon Britton', 'M', 7, 34, 11, 0, 0, 0, 0, 6, 4, 34);
+insert into player values ('Thomas Carroll', 'M', 42, 24, 5, 1, 0, 0, 1, 2, 4, 34);
+insert into player values ('Jack  Cork', 'M', 24, 27, 19, 3, 0, 4, 0, 26, 21, 34);
+insert into player values ('Nathan Dyer', 'M', 12, 29, 3, 5, 0, 1, 1, 7, 4, 34);
+insert into player values ('Leroy Fer', 'M', 8, 27, 18, 4, 6, 10, 1, 35, 30, 34);
+insert into player values ('Jay Fulton', 'M', 56, 22, 8, 2, 0, 0, 0, 11, 10, 34);
+insert into player values ('Daniel James', 'M', 51, 19, 0, 0, 0, 0, 0, 0, 0, 34);
+insert into player values ('Jefferson Montero', 'M', 20, 27, 2, 9, 0, 1, 1, 8, 1, 34);
+insert into player values ('Luciano Narsingh', 'M', 28, 26, 0, 4, 0, 0, 2, 0, 2, 34);
+insert into player values ('Wayne Routledge', 'M', 15, 32, 21, 2, 2, 7, 1, 14, 28, 34);
+insert into player values ('Gylfi Sigurdsson', 'M', 23, 27, 25, 1, 8, 36, 9, 22, 14, 34);
+insert into player values ('Ki Sung-Yeung', 'M', 4, 28, 8, 7, 0, 0, 0, 10, 15, 34);
+insert into player values ('Borja Bastón', 'F', 10, 24, 4, 10, 1, 3, 0, 8, 3, 34);
+insert into player values ('Fernando Llorente', 'F', 9, 32, 19, 4, 9, 18, 0, 22, 41, 34);
+insert into player values ('Oliver McBurnie', 'F', 62, 20, 0, 4, 0, 1, 0, 0, 1, 34);
+
+
+
+insert into player values ('Brad Guzan', 'G', 12, 32, 3, 0, null, null, null, 0, 0, 35);
+insert into player values ('Dimitrios Konstantopoulos', 'G', 1, 38, 0, 0, null, null, null, 0, 0, 35);
+insert into player values ('Víctor Valdés', 'G', 26, 35, 23, 0, null, null, null, 3, 0, 35);
+insert into player values ('Daniel Ayala', 'D', 4, 26, 5, 2, 1, 2, 0, 1, 10, 35);
+insert into player values ('Antonio Barragán', 'D', 17, 29, 20, 0, 0, 0, 0, 16, 24, 35);
+insert into player values ('Calum Chambers', 'D', 25, 22, 19, 0, 1, 1, 1, 11, 17, 35);
+insert into player values ('George Friend', 'D', 3, 29, 13, 3, 0, 1, 1, 16, 13, 35);
+insert into player values ('Dael Fry', 'D', 22, 19, 0, 0, 0, 0, 0, 0, 0, 35);
+insert into player values ('Ben Gibson', 'D', 6, 24, 26, 0, 1, 5, 0, 9, 12, 35);
+insert into player values ('James Husband', 'D', 40, 23, null, null, null, null, null, null, null, 35);
+insert into player values ('Bernardo', 'D', 5, 27, 7, 0, 0, 0, 0, 5, 14, 35);
+insert into player values ('Fabio', 'D', 2, 26, 13, 1, 0, 2, 0, 14, 18, 35);
+insert into player values ('Adam Clayton', 'M', 8, 28, 20, 2, 0, 0, 1, 24, 29, 35);
+insert into player values ('Stewart Downing', 'M', 19, 32, 13, 6, 1, 3, 2, 8, 5, 35);
+insert into player values ('Adam Forshaw', 'M', 34, 25, 24, 2, 0, 4, 1, 26, 24, 35);
+insert into player values ('Adlène Guédioura', 'M', 27, 31, 9, 6, 0, 4, 1, 8, 22, 35);
+insert into player values ('Grant Leadbitter', 'M', 7, 31, 2, 4, 1, 1, 0, 3, 3, 35);
+insert into player values ('Gastón Ramírez', 'M', 21, 26, 15, 4, 2, 8, 3, 27, 29, 35);
+insert into player values ('Adama Traoré', 'M', 37, 21, 12, 7, 0, 2, 0, 24, 10, 35);
+insert into player values ('Marten de Roon', 'M', 14, 25, 22, 1, 2, 3, 0, 14, 41, 35);
+insert into player values ('Patrick Bamford', 'F', 20, 23, 0, 9, 0, 0, 0, 3, 4, 35);
+insert into player values ('Viktor Fischer', 'F', 11, 22, 6, 6, 0, 2, 2, 7, 1, 35);
+insert into player values ('Rudy Gestede', 'F', 29, 28, 0, 5, 0, 1, 0, 2, 0, 35);
+insert into player values ('Álvaro Negredo', 'F', 10, 31, 24, 1, 6, 14, 4, 24, 36, 35);
+insert into player values ('Cristhian Stuani', 'F', 18, 30, 13, 5, 4, 10, 0, 25, 18, 35);
+
+
+
+insert into player values ('Wayne Hennessey', 'G', 13, 30, 17, 0, null, null, null, 2, 0, 36);
+insert into player values ('Perntreou Kleton', 'G', 40, 22, null, null, null, null, null, null, null, 36);
+insert into player values ('Steve Mandanda', 'G', 30, 31, 9, 0, null, null, null, 1, 0, 36);
+insert into player values ('Julian Speroni', 'G', 1, 37, 0, 0, null, null, null, 0, 0, 36);
+insert into player values ('Scott Dann', 'D', 6, 30, 19, 1, 3, 10, 1, 13, 14, 36);
+insert into player values ('Damien Delaney', 'D', 27, 35, 20, 1, 0, 0, 2, 11, 25, 36);
+insert into player values ('Ezekiel Fryers', 'D', 19, 24, 0, 8, 0, 0, 1, 2, 4, 36);
+insert into player values ('Martin Kelly', 'D', 34, 26, 16, 3, 0, 0, 2, 7, 17, 36);
+insert into player values ('Michael Phillips', 'D', 45, 19, 0, 0, 0, 0, 0, 0, 0, 36);
+insert into player values ('Mamadou Sakho', 'D', 12, 27, 1, 0, 0, 0, 0, 0, 0, 36);
+insert into player values ('Pape Souaré', 'D', 23, 26, 3, 0, 0, 0, 0, 4, 1, 36);
+insert into player values ('James Tomkins', 'D', 5, 27, 17, 1, 3, 4, 0, 8, 7, 36);
+insert into player values ('Joel Ward', 'D', 2, 27, 26, 0, 0, 2, 1, 35, 32, 36);
+insert into player values ('Ben Wynter', 'D', 44, 19, 0, 0, 0, 0, 0, 0, 0, 36);
+insert into player values ('Patrick van Aanholt', 'D', 3, 26, 25, 1, 4, 12, 1, 16, 15, 36);
+insert into player values ('Yohan Cabaye', 'M', 7, 31, 17, 6, 2, 9, 1, 17, 25, 36);
+insert into player values ('Lee Chung-Yong', 'M', 14, 28, 4, 10, 0, 2, 1, 10, 5, 36);
+insert into player values ('Luke Dreher', 'M', 35, 18, 0, 0, 0, 0, 0, 0, 0, 36);
+insert into player values ('Mathieu Flamini', 'M', 4, 32, 3, 4, 0, 0, 0, 0, 1, 36);
+insert into player values ('Sullay KaiKai', 'M', 25, 21, 0, 0, 0, 0, 0, 0, 0, 36);
+insert into player values ('Joe Ledley', 'M', 16, 30, 13, 5, 1, 1, 0, 10, 7, 36);
+insert into player values ('James McArthur', 'M', 18, 29, 20, 1, 5, 6, 2, 22, 38, 36);
+insert into player values ('Luka Milivojevic', 'M', 28, 25, 2, 0, 0, 0, 0, 3, 2, 36);
+insert into player values ('Jason Puncheon', 'M', 42, 30, 23, 1, 0, 9, 3, 24, 41, 36);
+insert into player values ('Bakary Sako', 'M', 26, 28, 0, 4, 0, 1, 0, 2, 2, 36);
+insert into player values ('Jeff Schlupp', 'M', 31, 24, 2, 6, 0, 0, 0, 4, 1, 36);
+insert into player values ('Andros Townsend', 'M', 10, 25, 19, 6, 1, 9, 2, 27, 9, 36);
+insert into player values ('Aaron Wan-Bissaka', 'M', 46, 19, 0, 0, 0, 0, 0, 0, 0, 36);
+insert into player values ('Wilfried Zaha', 'M', 11, 24, 22, 1, 4, 13, 6, 71, 33, 36);
+insert into player values ('Christian Benteke', 'F', 17, 26, 24, 0, 9, 25, 1, 30, 52, 36);
+insert into player values ('Jonathan Benteke', 'F', 15, 21, 0, 1, 0, 1, 0, 0, 0, 36);
+insert into player values ('Fraizer Campbell', 'F', 9, 29, 0, 8, 1, 1, 0, 2, 1, 36);
+insert into player values ('Loïc Rémy', 'F', 8, 30, 1, 3, 0, 2, 0, 1, 2, 36);
+insert into player values ('Connor Wickham', 'F', 21, 23, 4, 4, 2, 5, 0, 5, 12, 36);
+
+
+
+insert into player values ('Eldin Jakupovic', 'G', 16, 32, 11, 0, null, null, null, 1, 0, 37);
+insert into player values ('William Mannion', 'G', 35, 18, null, null, null, null, null, null, null, 37);
+insert into player values ('David Marshall', 'G', 23, 31, 15, 0, null, null, null, 1, 0, 37);
+insert into player values ('Curtis Davies', 'D', 6, 31, 22, 0, 0, 3, 2, 17, 11, 37);
+insert into player values ('Michael Dawson', 'D', 21, 33, 16, 0, 3, 8, 0, 5, 9, 37);
+insert into player values ('Omar Elabdellaoui', 'D', 14, 25, 4, 1, 0, 0, 0, 2, 2, 37);
+insert into player values ('Ahmed Elmohamady', 'D', 27, 29, 20, 1, 0, 2, 1, 7, 15, 37);
+insert into player values ('Brian Lenihan', 'D', 31, 22, null, null, null, null, null, null, null, 37);
+insert into player values ('Harry Maguire', 'D', 5, 24, 15, 4, 0, 7, 2, 26, 16, 37);
+insert into player values ('Andrea Ranocchia', 'D', 13, 29, 3, 1, 0, 1, 1, 4, 3, 37);
+insert into player values ('Andrew Robertson', 'D', 3, 22, 20, 1, 0, 0, 1, 8, 13, 37);
+insert into player values ('Josh Tymon', 'D', 28, 17, 3, 1, 0, 0, 0, 2, 3, 37);
+insert into player values ('Samuel Clucas', 'M', 11, 26, 24, 1, 0, 2, 1, 18, 14, 37);
+insert into player values ('Evandro Goebel', 'M', 40, 30, 3, 2, 0, 0, 0, 12, 6, 37);
+insert into player values ('Kamil Grosicki', 'M', 17, 28, 3, 0, 0, 0, 0, 2, 0, 37);
+insert into player values ('Markus Henriksen', 'M', 22, 24, 6, 5, 0, 0, 0, 12, 13, 37);
+insert into player values ('Tom Huddlestone', 'M', 8, 30, 18, 5, 1, 4, 0, 12, 23, 37);
+insert into player values ('Shaun Maloney', 'M', 15, 34, 2, 4, 1, 1, 1, 5, 2, 37);
+insert into player values ('Lazar Markovic', 'M', 50, 22, 2, 0, 0, 1, 0, 5, 3, 37);
+insert into player values ('Ryan Mason', 'M', 25, 25, 11, 5, 1, 4, 0, 16, 9, 37);
+insert into player values ('David Meyler', 'M', 7, 27, 9, 10, 1, 2, 0, 15, 8, 37);
+insert into player values ('Alfred Ndiaye', 'M', 10, 26, 3, 0, 1, 2, 0, 0, 8, 37);
+insert into player values ('Moses Odubajo', 'M', 2, 23, null, null, null, null, null, null, null, 37);
+insert into player values ('Greg Olley', 'M', 36, 21, 0, 0, 0, 0, 0, 0, 0, 37);
+insert into player values ('Jarrod Bowen', 'F', 29, 20, 0, 5, 0, 0, 0, 5, 1, 37);
+insert into player values ('Adama Diomandé', 'F', 20, 27, 13, 7, 2, 6, 0, 16, 19, 37);
+insert into player values ('Abel Hernández', 'F', 9, 26, 11, 4, 3, 14, 1, 8, 14, 37);
+insert into player values ('Ben Hinchcliffe', 'F', 39, 19, 0, 0, 0, 0, 0, 0, 0, 37);
+insert into player values ('William Keane', 'F', 19, 24, 4, 1, 0, 0, 0, 2, 5, 37);
+insert into player values ('Greg Luer', 'F', 32, 22, 0, 0, 0, 0, 0, 0, 0, 37);
+insert into player values ('Dieumerci Mbokani', 'F', 18, 31, 8, 2, 0, 4, 1, 21, 14, 37);
+insert into player values ('Oumar Niasse', 'F', 24, 26, 2, 4, 1, 4, 0, 7, 5, 37);
+
+
+
+insert into player values ('Vito Mannone', 'G', 1, 28, 9, 0, null, null, null, 0, 0, 38);
+insert into player values ('Jordan Pickford', 'G', 13, 22, 17, 0, null, null, null, 4, 0, 38);
+insert into player values ('Mika', 'G', 12, 25, 0, 0, null, null, null, 0, 0, 38);
+insert into player values ('Max Stryjek', 'G', 32, 20, 0, 0, null, null, null, 0, 0, 38);
+insert into player values ('Jason Denayer', 'D', 4, 21, 14, 2, 0, 2, 0, 3, 11, 38);
+insert into player values ('Papy Djilobodji', 'D', 5, 28, 17, 1, 0, 2, 0, 16, 23, 38);
+insert into player values ('Billy Jones', 'D', 2, 29, 14, 2, 0, 2, 0, 8, 11, 38);
+insert into player values ('Lamine Koné', 'D', 23, 28, 21, 0, 1, 3, 0, 8, 10, 38);
+insert into player values ('Joleon Lescott', 'D', 15, 34, 0, 1, 0, 0, 0, 1, 0, 38);
+insert into player values ('Donald Love', 'D', 22, 22, 5, 6, 0, 0, 1, 3, 8, 38);
+insert into player values ('Javier Manquillo', 'D', 21, 22, 8, 4, 0, 0, 0, 9, 9, 38);
+insert into player values ('Paddy McNair', 'D', 19, 21, 5, 4, 0, 0, 0, 3, 5, 38);
+insert into player values ('John O''Shea', 'D', 16, 35, 16, 2, 0, 0, 0, 6, 9, 38);
+insert into player values ('Bryan Oviedo', 'D', 3, 27, 9, 0, 0, 0, 0, 7, 14, 38);
+insert into player values ('Josh Robson', 'D', 45, 19, 0, 0, 0, 0, 0, 0, 0, 38);
+insert into player values ('Lee Cattermole', 'M', 6, 28, 2, 0, 0, 0, 0, 0, 4, 38);
+insert into player values ('Elliot Embleton', 'M', 40, 17, 0, 0, 0, 0, 0, 0, 0, 38);
+insert into player values ('Darron Gibson', 'M', 24, 29, 2, 1, 0, 0, 0, 0, 5, 38);
+insert into player values ('Lynden Gooch', 'M', 46, 21, 4, 5, 0, 0, 0, 4, 9, 38);
+insert into player values ('Rees Greenwood', 'M', 37, 20, null, null, null, null, null, null, null, 38);
+insert into player values ('George Honeyman', 'M', 39, 22, 1, 2, 0, 0, 0, 3, 1, 38);
+insert into player values ('Adnan Januzaj', 'M', 44, 22, 14, 4, 0, 5, 3, 27, 22, 38);
+insert into player values ('Wahbi Khazri', 'M', 10, 26, 4, 9, 0, 4, 0, 12, 10, 38);
+insert into player values ('Jan Kirchhoff', 'M', 27, 26, 5, 2, 0, 0, 0, 1, 8, 38);
+insert into player values ('Sebastian Larsson', 'M', 7, 31, 10, 3, 0, 0, 0, 6, 18, 38);
+insert into player values ('Michael Ledger', 'M', 43, 20, 0, 0, 0, 0, 0, 0, 0, 38);
+insert into player values ('Didier N''Dong', 'M', 17, 22, 18, 2, 1, 3, 0, 15, 25, 38);
+insert into player values ('Steven Pienaar', 'M', 20, 34, 9, 5, 0, 2, 0, 26, 14, 38);
+insert into player values ('Ethan Robson', 'M', 25, 20, 0, 0, 0, 0, 0, 0, 0, 38);
+insert into player values ('Jack Rodwell', 'M', 8, 25, 12, 1, 0, 3, 1, 9, 15, 38);
+insert into player values ('Victor Anichebe', 'F', 28, 28, 8, 3, 3, 7, 0, 18, 17, 38);
+insert into player values ('Joel Asoro', 'F', 29, 17, 0, 1, 0, 0, 0, 0, 0, 38);
+insert into player values ('Fabio Borini', 'F', 9, 25, 10, 2, 1, 5, 0, 21, 13, 38);
+insert into player values ('Jermain Defoe', 'F', 18, 34, 26, 0, 14, 22, 2, 19, 18, 38);
+insert into player values ('Josh Maja', 'F', 35, 18, 0, 0, 0, 0, 0, 0, 0, 38);
+insert into player values ('Duncan Watmore', 'F', 14, 22, 11, 3, 0, 4, 2, 22, 10, 38);
 
 
 
