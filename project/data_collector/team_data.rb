@@ -54,7 +54,7 @@ teams.each do |team|
     end
     begin
       open('teams.txt', 'a') { |f| f.puts team.css('td.team a').attribute('href').to_s}
-      team_standing = "insert into league_standing values (#{count}, #{league_id}, #{team.css('td.pos').text.strip})"
+      team_standing = "insert into league_standing values (#{count}, #{league_id}, #{team.css('td.pos').text.strip});"
       open('../oracle_files/data.sql', 'a') { |f| f.puts team_standing }
     rescue
       puts "error"
