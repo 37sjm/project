@@ -9,4 +9,4 @@
 `echo "insert into game values (8, 9, 0, '08-Jan-2017', 2, 0, null);" >> ../oracle_files/data.sql`
 `echo "insert into game values (9, 11, 7, '11-Jan-2017', 2, 4, 11);" >> ../oracle_files/data.sql`
 `echo "insert into game values (10, 14, 15, '14-Jan-2017', 3, 3, 15);" >> ../oracle_files/data.sql`
-`echo "insert into game values (11, 10, 3, '19-Jan-2017', 2, 1, 1u);" >> ../oracle_files/data.sql`
+`echo "insert into game values (11, 10, 3, '19-Jan-2017', 2, 1, 1);" >> ../oracle_files/data.sql`
