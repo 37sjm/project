@@ -23,7 +23,7 @@ players.each do |player|
     end
     #write player info to update_info.sql
   #write player info to update_info.sql
-  output =  "insert into player values (#{count}, '#{player_info['td.pla'].gsub("'", "''")}', '#{player_info['td.pos']}', #{player_info['td.no']}, #{player_info['td.age']}, #{player_info['td.starts']}, #{player_info['td.subIns']}, #{player_info['td.totalGoals']}, #{player_info['td.shotsOnTarget']}, #{player_info['td.goalAssists']}, #{player_info['td.foulsSuffered']}, #{player_info['td.foulsCommitted']}, #{teamId});"
+  output =  "insert into player values ('#{player_info['td.pla'].gsub("'", "''")}', '#{player_info['td.pos']}', #{player_info['td.no']}, #{player_info['td.age']}, #{player_info['td.starts']}, #{player_info['td.subIns']}, #{player_info['td.totalGoals']}, #{player_info['td.shotsOnTarget']}, #{player_info['td.goalAssists']}, #{player_info['td.foulsSuffered']}, #{player_info['td.foulsCommitted']}, #{teamId});"
   output = output.gsub(', ,', ', null,').gsub('--', 'null').gsub(', ,', ', null,')
   count += 1
   open('../oracle_files/data.sql', 'a') { |f| f.puts output }

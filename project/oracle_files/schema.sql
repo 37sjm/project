@@ -14,7 +14,6 @@ create table team (
 	);
 	
 create table player (
-	id integer primary key not null,
 	name varchar(60) not null,
 	pos varchar(1) not null,
 	num integer not null,
@@ -28,6 +27,7 @@ create table player (
 	fc integer,
 	teamId integer,
 	check (age > 0),
+  primary key (teamId, num),
 	foreign key (teamId) references team(id) on delete set null
 	);
 	
