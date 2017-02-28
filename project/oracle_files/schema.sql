@@ -50,7 +50,7 @@ create table league_standings (
 create table tournament (
 	id integer primary key not null,
 	name varchar(30) not null,
-	num_teams integer
+	location varchar(30)
 	);
 	
 create table game (

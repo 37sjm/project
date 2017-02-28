@@ -1,44 +1,46 @@
-insert into league_standing values (0, 0, 1)
-insert into league_standing values (0, 0, 2)
-insert into league_standing values (0, 0, 3)
-insert into league_standing values (0, 0, 4)
-insert into league_standing values (0, 0, 5)
-insert into league_standing values (0, 0, 6)
-insert into league_standing values (0, 0, 7)
-insert into league_standing values (0, 0, 8)
-insert into league_standing values (0, 0, 9)
-insert into league_standing values (0, 0, 10)
-insert into league_standing values (0, 0, 11)
-insert into league_standing values (0, 0, 12)
-insert into league_standing values (0, 0, 13)
-insert into league_standing values (0, 0, 14)
-insert into league_standing values (0, 0, 15)
-insert into league_standing values (0, 0, 17)
-insert into league_standing values (0, 0, 18)
-insert into league_standing values (0, 0, 19)
-insert into league_standing values (0, 0, 20)
+insert into league values (0, 'La Liga', 'Spain');
+insert into league values (1, 'English Premier League', 'England');
+insert into team values (0, 'Real Madrid', 17, 2, 4);
+insert into team values (1, 'Barcelona', 16, 2, 6);
+insert into team values (2, 'Sevilla FC', 16, 4, 4);
+insert into team values (3, 'Atletico Madrid', 13, 5, 6);
+insert into team values (4, 'Real Sociedad', 14, 8, 2);
+insert into team values (5, 'Villarreal', 10, 5, 9);
+insert into team values (6, 'Eibar', 11, 8, 5);
+insert into team values (7, 'Athletic Bilbao', 11, 8, 5);
+insert into team values (8, 'Espanyol', 9, 7, 8);
+insert into team values (9, 'Celta Vigo', 10, 9, 4);
+insert into team values (10, 'Alavés', 8, 7, 9);
+insert into team values (11, 'Las Palmas', 7, 10, 7);
+insert into team values (12, 'Valencia', 7, 12, 5);
+insert into team values (13, 'Málaga', 6, 10, 8);
+insert into team values (14, 'Real Betis', 6, 11, 6);
+insert into team values (15, 'Deportivo La Coruña', 4, 12, 7);
+insert into team values (16, 'Sporting Gijón', 4, 15, 5);
+insert into team values (17, 'Granada', 3, 14, 7);
+insert into team values (18, 'Osasuna', 1, 16, 7);
 
 
 
-insert into team values (0, 'Real Madrid', 17, 2, 4)
-insert into team values (1, 'Barcelona', 16, 2, 6)
-insert into team values (2, 'Sevilla FC', 16, 4, 4)
-insert into team values (3, 'Atletico Madrid', 13, 5, 6)
-insert into team values (4, 'Real Sociedad', 14, 8, 2)
-insert into team values (5, 'Villarreal', 10, 5, 9)
-insert into team values (6, 'Eibar', 11, 8, 5)
-insert into team values (7, 'Athletic Bilbao', 11, 8, 5)
-insert into team values (8, 'Espanyol', 9, 7, 8)
-insert into team values (9, 'Celta Vigo', 10, 9, 4)
-insert into team values (10, 'Alavés', 8, 7, 9)
-insert into team values (11, 'Las Palmas', 7, 10, 7)
-insert into team values (12, 'Valencia', 7, 12, 5)
-insert into team values (13, 'Málaga', 6, 10, 8)
-insert into team values (14, 'Real Betis', 6, 11, 6)
-insert into team values (15, 'Deportivo La Coruña', 4, 12, 7)
-insert into team values (16, 'Sporting Gijón', 4, 15, 5)
-insert into team values (17, 'Granada', 3, 14, 7)
-insert into team values (18, 'Osasuna', 1, 16, 7)
+insert into league_standing values (0, 0, 1);
+insert into league_standing values (0, 0, 2);
+insert into league_standing values (0, 0, 3);
+insert into league_standing values (0, 0, 4);
+insert into league_standing values (0, 0, 5);
+insert into league_standing values (0, 0, 6);
+insert into league_standing values (0, 0, 7);
+insert into league_standing values (0, 0, 8);
+insert into league_standing values (0, 0, 9);
+insert into league_standing values (0, 0, 10);
+insert into league_standing values (0, 0, 11);
+insert into league_standing values (0, 0, 12);
+insert into league_standing values (0, 0, 13);
+insert into league_standing values (0, 0, 14);
+insert into league_standing values (0, 0, 15);
+insert into league_standing values (0, 0, 17);
+insert into league_standing values (0, 0, 18);
+insert into league_standing values (0, 0, 19);
+insert into league_standing values (0, 0, 20);
 
 
 
@@ -629,8 +631,6 @@ insert into player values (32, 'Emmanuel Rivière', 'F', 12, 26, 6, 7, 0, 5, 0, 
 
 
 
-insert into league values (0, 'La Liga', 'Spain');
-insert into league values (1, 'English Premier League', 'England');
 insert into tournament values (0, 'Spanish Super Cup', 'Spain');
 insert into tournament values (1, 'EFL', 'England');
 insert into game values (0, 1, 2, '12-Jan-2017', null, null, 1);
@@ -644,4 +644,4 @@ insert into game values (7, 4, 1, '01-Jan-2017', 1, 2, 14);
 insert into game values (8, 9, 0, '08-Jan-2017', 2, 0, null);
 insert into game values (9, 11, 7, '11-Jan-2017', 2, 4, 11);
 insert into game values (10, 14, 15, '14-Jan-2017', 3, 3, 15);
-insert into game values (11, 10, 3, '19-Jan-2017', 2, 1, 1u);
+insert into game values (11, 10, 3, '19-Jan-2017', 2, 1, 1);
