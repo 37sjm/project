@@ -15,6 +15,7 @@ create table team (
 	
 create table player (
 	id integer primary key not null,
+	name varchar(60) not null,
 	pos varchar(1) not null,
 	num integer not null,
 	age integer not null,

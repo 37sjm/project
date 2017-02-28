@@ -1,26 +1,12 @@
-#script to collect required stats on Team/Player information only
-#created by: Mitch Stark 2/26/17
+`rm ../oracle_files/data.sql`
+`rm teams.txt`
+`ruby team_data.rb http://www.espnfc.us/spanish-primera-division/15/table`
 
-require 'rubygems'
-require 'nokogiri'
-require 'open-uri'
-
-
-search = ['td.pla', 'td.age', 'td.starts', 'td.subIns', 'td.totalGoals', 'td.totalShots', 'td.shotsOnTarget', 'td.goalAssists', 'td.foulsCommitted', 'td.foulsSuffered', 'td.yellowCards', 'td.redCards']
-
-site = ARGV[0]
-page = Nokogiri::HTML(open(site))
-columns = page.css('tbody')
-
-players = columns.children
-
-players.each do |player|
-  if player.css('td.pla').text.strip != ''
-    player_info = Hash.new
-    search.each do |find|
-      player_info[find] = player.css(find).text.strip
-    end
-    puts player_info
-    #write player info to update_info.sql
-  end
+File.foreach('teams.txt').with_index do |line, line_num|
+   puts "ruby player_data.rb #{line.chomp.gsub('index', 'squad')} #{line_num};"
+  `ruby player_data.rb #{line.chomp.gsub('index', 'squad')} #{line_num};`
 end
+
+`ruby league_data.rb`
+`ruby tournament.rb`
+`ruby game.rb`
