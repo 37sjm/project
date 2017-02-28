@@ -42,7 +42,7 @@ create table league_standings (
 	standing integer,
 	primary key (teamId, leagueId),
 	foreign key (teamId) references team(id) on delete cascade,
-	foreign key (leagueId) references league(id) on delete cascade,
+	foreign key (leagueId) references league(id) on delete cascade
 	);
 	
 create table tournament (
