@@ -36,7 +36,7 @@ teams.each do |team|
     end
     name = team.css('td.team a').text.strip
     if name != ''
-      team_data = "insert into team values (#{count}, '#{name}', #{wins}, #{losses}, #{ties})"
+      team_data = "insert into team values (#{count}, '#{name}', #{wins}, #{losses}, #{ties});"
       open('../oracle_files/data.sql', 'a') { |f| f.puts team_data }
       count += 1
     end
