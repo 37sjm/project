@@ -26,8 +26,7 @@ create table player (
 	fs integer,
 	fc integer,
 	teamId integer,
-	check (age > 0),
-  primary key (teamId, num),
+  	primary key (teamId, num),
 	foreign key (teamId) references team(id) on delete set null
 	);
 	
@@ -44,7 +43,6 @@ create table league_standings (
 	primary key (teamId, leagueId),
 	foreign key (teamId) references team(id) on delete cascade,
 	foreign key (leagueId) references league(id) on delete cascade,
-	check (standing >= 1 and standing <= 20) --leagues only have 1-20 standing
 	);
 	
 create table tournament (
