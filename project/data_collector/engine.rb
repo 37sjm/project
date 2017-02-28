@@ -1,5 +1,8 @@
 `rm ../oracle_files/data.sql`
 `rm teams.txt`
+
+`ruby league_data.rb`
+
 `ruby team_data.rb http://www.espnfc.us/spanish-primera-division/15/table`
 
 File.foreach('teams.txt').with_index do |line, line_num|
@@ -7,6 +10,5 @@ File.foreach('teams.txt').with_index do |line, line_num|
   `ruby player_data.rb #{line.chomp.gsub('index', 'squad')} #{line_num};`
 end
 
-`ruby league_data.rb`
 `ruby tournament.rb`
 `ruby game.rb`

@@ -12,6 +12,39 @@ page = Nokogiri::HTML(open(site))
 columns = page.css('tbody')
 
 teams = columns.children
+
+count = 0
+teams.each do |team|
+  wins = -1
+  ties = -1
+  losses = -1
+  if team.css('td.pos').text.strip != ''
+    record = team.css('td.groupA')
+    rc = 0
+    record.each do |r| 
+      if rc == 1
+        #wins
+        wins = r.text.strip
+      elsif rc == 2
+        #draws
+        ties = r.text.strip
+      elsif rc == 3
+        #losses
+        losses = r.text.strip
+      end
+      rc += 1
+    end
+    name = team.css('td.team a').text.strip
+    if name != ''
+      team_data = "insert into team values (#{count}, '#{name}', #{wins}, #{losses}, #{ties})"
+      open('../oracle_files/data.sql', 'a') { |f| f.puts team_data }
+      count += 1
+    end
+  end
+end
+
+open('../oracle_files/data.sql', 'a',) { |f| f.puts "\n\n\n" }
+
 count = 0
 teams.each do |team|
   if team.css('td.pos').text.strip != ''
@@ -25,38 +58,6 @@ teams.each do |team|
       open('../oracle_files/data.sql', 'a') { |f| f.puts team_standing }
     rescue
       puts "error"
-    end
-  end
-end
-
-open('../oracle_files/data.sql', 'a',) { |f| f.puts "\n\n\n" }
-
-count = 0
-teams.each do |team|
-  wins = -1
-  ties = -1
-  losses = -1
-  if team.css('td.pos').text.strip != ''
-    record = team.css('td.groupA')
-    rc = 0
-    record.each do |r| 
-      if rc == 1
-      #wins
-        wins = r.text.strip
-      elsif rc == 2
-      #draws
-        ties = r.text.strip
-      elsif rc == 3
-        #losses
-        losses = r.text.strip
-      end
-      rc += 1
-    end
-    name = team.css('td.team a').text.strip
-    if name != ''
-      team_data = "insert into team values (#{count}, '#{name}', #{wins}, #{losses}, #{ties})"
-      open('../oracle_files/data.sql', 'a') { |f| f.puts team_data }
-      count += 1
     end
   end
 end
