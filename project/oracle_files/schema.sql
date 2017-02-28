@@ -36,7 +36,7 @@ create table league (
 	location varchar(30)
 	);
 	
-create table league_standings (
+create table league_standing (
 	teamId integer not null,
 	leagueId integer not null,
 	standing integer,
