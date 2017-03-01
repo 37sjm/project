@@ -1,4 +1,4 @@
-I got my data off of ESPN's soccer website. I built a web scraper in ruby to get data on teams, league standings, and player statistics. The only information that did not come from espnfc was the game data (it'll take more research for the best way to get a league schedule) and leagues because there are only two different leagues that I want to be monitoring, each with ~20 teams. Having any more leagues would be too much, as I'm already storing around 1000 players.
+I got my data off of ESPN's soccer website. I built a web scraper in ruby to get data on teams, league standings, and player statistics. The only information that did not come from espnfc was the game data (it'll take more research for the best way to get a league schedule) and leagues/tournaments because there are only two different leagues and tournaments that I want to be monitoring, each with ~20 teams. Having any more leagues would be too much, as I'm already storing around 1000 players.
 
 Non-trivial Functional Dependencies -
 	Team table -

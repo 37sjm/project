@@ -1312,15 +1312,15 @@ insert into player values ('Duncan Watmore', 'F', 14, 22, 11, 3, 0, 4, 2, 22, 10
 
 insert into tournament values (0, 'Spanish Super Cup', 'Spain');
 insert into tournament values (1, 'EFL', 'England');
-insert into game values (0, 1, 2, '12-Jan-2017', null, null, 1);
-insert into game values (1, 4, 18, '19-Jan-2017', 1, 2, 18);
-insert into game values (2, 0, 12, '12-Jan-2017', 0, 0, null);
-insert into game values (3, 6, 13, '22-Jan-2017', 2, 0, 13);
-insert into game values (4, 5, 15, '27-Jan-2017', 5, 3, 15);
-insert into game values (5, 16, 3, '23-Jan-2017', 0, 0, 16);
-insert into game values (6, 8, 2, '02-Jan-2017', null, null, 2);
-insert into game values (7, 4, 1, '01-Jan-2017', 1, 2, 14);
-insert into game values (8, 9, 0, '08-Jan-2017', 2, 0, null);
-insert into game values (9, 11, 7, '11-Jan-2017', 2, 4, 11);
-insert into game values (10, 14, 15, '14-Jan-2017', 3, 3, 15);
-insert into game values (11, 10, 3, '19-Jan-2017', 2, 1, 1);
+insert into game values (1, 2, '12-Jan-2017', null, null, 1);
+insert into game values (4, 18, '19-Jan-2017', 1, 2, 18);
+insert into game values (0, 12, '12-Jan-2017', 0, 0, null);
+insert into game values (6, 13, '22-Jan-2017', 2, 0, 13);
+insert into game values (5, 15, '27-Jan-2017', 5, 3, 15);
+insert into game values (16, 3, '23-Jan-2017', 0, 0, 16);
+insert into game values (8, 2, '02-Jan-2017', null, null, 2);
+insert into game values (4, 1, '01-Jan-2017', 1, 2, 14);
+insert into game values (9, 0, '08-Jan-2017', 2, 0, null);
+insert into game values (11, 7, '11-Jan-2017', 2, 4, 11);
+insert into game values (14, 15, '14-Jan-2017', 3, 3, 15);
+insert into game values (10, 3, '19-Jan-2017', 2, 1, 1);
