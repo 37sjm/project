@@ -1,10 +1,3 @@
-drop table player;
-drop table league_standings;
-drop table league;
-drop table tournament;
-drop table game;
-drop table team;
-	
 create table team (
 	id integer primary key not null,
 	name varchar(30) not null,
