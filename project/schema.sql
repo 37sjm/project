@@ -52,11 +52,11 @@ create table tournament (
 	);
 	
 create table game (
-	id integer primary key not null,
 	team_one_id integer,
 	team_two_id integer,
 	game_date Date,
 	team_one_score integer,
 	team_two_score integer,
-	predicted_winner integer
+	predicted_winner integer,
+	primary key (team_one_id, team_two_id, game_date)
 	);
