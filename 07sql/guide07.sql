@@ -19,3 +19,14 @@ where Person.id = PersonTeam.personId;
 				1) Modifying or transforming the view query into a query on the underlying base tables
 			ii. Materialization
 Physically creating a temporary or permanent view table when the view is first queried or created and keeping that table on the assumption that other queries on the view will follow.
+
+
+For Wednesday:
+	c. Define the following terms):
+		i. Existential and universal quantifiers (see Section 8.6.3).
+			i. Existential
+				1) When a formula is true if there exists some tuple that makes it true.
+			ii. Universal
+				1) When a formula is true when every possible tuple that can be assigned to free occurrences of t in F (formula) is substituted for t, and F is true for every substitution.
+		ii. safe expressions (see Section 8.6.8)
+One that is guaranteed to yield a finite number of tuples as its result.
