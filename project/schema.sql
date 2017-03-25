@@ -5,10 +5,10 @@ create table team (
 	losses integer,
 	ties integer
 	);
-	
+
 create table player (
 	name varchar(60) not null,
-	pos varchar(1) not null,
+	pos varchar(1) not null CHECK (pos in ('G', 'D', 'M', 'F')),
 	num integer not null,
 	age integer not null,
 	gs integer,
@@ -19,16 +19,16 @@ create table player (
 	fs integer,
 	fc integer,
 	teamId integer,
-  	primary key (teamId, num),
+  primary key (teamId, num),
 	foreign key (teamId) references team(id) on delete set null
 	);
-	
+
 create table league (
 	id integer primary key not null,
 	name varchar(30),
 	location varchar(30)
 	);
-	
+
 create table league_standing (
 	teamId integer not null,
 	leagueId integer not null,
@@ -37,13 +37,13 @@ create table league_standing (
 	foreign key (teamId) references team(id) on delete cascade,
 	foreign key (leagueId) references league(id) on delete cascade
 	);
-	
+
 create table tournament (
 	id integer primary key not null,
 	name varchar(30) not null,
 	location varchar(30)
 	);
-	
+
 create table game (
 	team_one_id integer,
 	team_two_id integer,
