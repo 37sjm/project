@@ -9,7 +9,7 @@ grant
   create session,
   create sequence,
   create view,
-  create materialized view
+  create materialized view,
   create procedure,
   create trigger,
   unlimited tablespace
