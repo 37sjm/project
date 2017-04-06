@@ -5,6 +5,7 @@ create table baconNumbers (
 	distance integer
 );
 
+--This takes a long time to run because the amount of actors to look through
 create or replace procedure baconNumber(actorToFind in integer, depthnum in integer) AS
 cursor associatedActors is
 	select actorId from role where movieid in (select movieid from role where actorId = actorToFind);
