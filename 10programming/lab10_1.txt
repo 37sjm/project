@@ -23,8 +23,14 @@ Guess 4: Correct, the first session (where the movie was inserted) returned 42 m
 
 Guess 5: Correct, both sessions have now seen the changes and will return 42 movies.
 
-LEFT TO ANSWER
 10.1.a
-
+I found that if I had a succesful transaction and then closed the session, Oracle would automatically update the table for both sessions (commit) which I belive was the correct and intended behavior for what to do when a session is closed with succesful transactions that haven't been committed.
 
 10.1.b
+Atomicity - With Oracles commit and rollback features, transactions can either be completed fully, or rolled back and aborted.
+
+Consistency - I think that triggers/constraints allow for data to be only changed in a consistent and defined way.
+
+Isolation - Using Oracle's LOCK TABLE feature, we can definitely isolate data when a transaction is about to occur.
+
+Durability - Commiting changes to the table allows the data that has been changed to be maintained in the database.
