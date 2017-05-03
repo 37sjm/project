@@ -1,4 +1,4 @@
-import models.Player;
+import models.PlayerEntity;
 
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
@@ -35,15 +35,15 @@ public class PlayerResource {
     @GET
     @Path("player/{id}")
     @Produces(MediaType.APPLICATION_JSON)
-    public Player getPlayer(@PathParam("id") long id) {
-        return em.find(Player.class, id);
+    public PlayerEntity getPlayer(@PathParam("id") long id) {
+        return em.find(PlayerEntity.class, id);
     }
 
     @GET
     @Path("players")
     @Produces(MediaType.APPLICATION_JSON)
-    public List<Player> getPlayers() {
-        return em.createQuery(em.getCriteriaBuilder().createQuery(Player.class)).getResultList();
+    public List<PlayerEntity> getPlayers() {
+        return em.createQuery(em.getCriteriaBuilder().createQuery(PlayerEntity.class)).getResultList();
     }
 
 }

@@ -1,4 +1,4 @@
-import models.Player;
+import models.PlayerEntity;
 
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
@@ -11,7 +11,7 @@ public class MyApplication extends Application {
     @Override
     public Set<Class<?>> getClasses() {
         HashSet h = new HashSet<Class<?>>();
-        h.add(Player.class);
+        h.add(PlayerEntity.class);
         return h;
     }
 }

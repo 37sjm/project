@@ -3,17 +3,17 @@
 
     <persistence-unit name="NewPersistenceUnit">
         <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
-        <class>models.Tournament</class>
-        <class>models.Game</class>
-        <class>models.League</class>
-        <class>models.LeagueStanding</class>
-        <class>models.Player</class>
-        <class>models.Team</class>
+        <class>models.TournamentEntity</class>
+        <class>models.GameEntity</class>
+        <class>models.LeagueEntity</class>
+        <class>models.LeagueStandingEntity</class>
+        <class>models.PlayerEntity</class>
+        <class>models.TeamEntity</class>
         <properties>
-            <property name="eclipselink.jdbc.url" value="jdbc:oracle:thin:@localhost:1521:cs342"/>
+            <property name="eclipselink.jdbc.url" value="jdbc:oracle:thin:@localhost:1521:XE"/>
             <property name="eclipselink.jdbc.driver" value="oracle.jdbc.OracleDriver"/>
-            <property name="eclipselink.jdbc.user" value=""/>
-            <property name="eclipselink.jdbc.password" value=""/>
+            <property name="eclipselink.jdbc.user" value="mjs73"/>
+            <property name="eclipselink.jdbc.password" value="password"/>
         </properties>
     </persistence-unit>
 </persistence>
